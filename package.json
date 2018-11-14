@@ -1,0 +1,28 @@
+{
+    "name": "project19",
+    "version": "0.0.1a",
+    "description": "Finálny projekt na predmet WEBTECH1, FEI STU API",
+    "main": "index.js",
+    "scripts": {
+        "start": "npx parcel ./index.html"
+    },
+    "author": "Lukáš Odler, Ondrej Straka",
+    "license": "MIIT",
+    "dependencies": {
+        "font-awesome": "^4.7.0",
+        "isotope-layout": "^3.0.6",
+        "isotope-packery": "^2.0.1",
+        "jquery": "^3.3.1",
+        "vue": "^2.5.17",
+        "vue-hot-reload-api": "^2.3.0",
+        "vue-router": "^3.0.1"
+    },
+    "devDependencies": {
+        "@vue/component-compiler-utils": "^2.2.0",
+        "babel-core": "^6.26.3",
+        "babel-preset-env": "^1.7.0",
+        "node-sass": "^4.9.2",
+        "parcel-bundler": "^1.9.7",
+        "vue-template-compiler": "^2.5.17"
+    }
+}

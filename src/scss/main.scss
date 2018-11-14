@@ -1,0 +1,9 @@
+@import "../../node_modules/font-awesome/css/font-awesome.min.css";
+@import "./webcss.css";
+
+body{
+    min-width: 100vw;
+    min-height: 100vh;
+}
+
+@import './app.scss';
