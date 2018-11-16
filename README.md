@@ -1,7 +1,7 @@
 # Projekt19 WEBTECH1 FEI STU API
 
 ![CSS Framework](https://img.shields.io/badge/type-Vue_Website-blue.svg)
-![version](https://img.shields.io/badge/version-0.1.1a-lightgray.svg)
+![version](https://img.shields.io/badge/version-0.1.0a-lightgray.svg)
 ![status](https://img.shields.io/badge/status-development-red.svg)
 ![licence](https://img.shields.io/badge/licence-MIIT-blue.svg)
 
@@ -14,7 +14,7 @@ Sometext
     V root Adresári príkaz:
 
     ```npm
-    npm
+    npm install
     ```
 
 * ### Spustenie servera
@@ -46,7 +46,7 @@ NPM-ko treba aby vedelo stahovat dependencky. Treba min. tie verzie, kvôli prí
     * **js**    : js files
         * _main.js_ : overall js funkcionalita stránky
         * _vendor.js_   : jeden js file pre všetky js knižnice, lepší page loading
-    * **scss**  : scss štýlovanie
+    ** **scss**  : scss štýlovanie
 * _.babelrc_    : konverter ES6, lebo nie všetky browsre ju podporujú
 * _.gitignore_  : súbory ktoré bude git ignorovať pri commitoch
 * _index.html_  : file na ktorý bude Vue nalinkovaný
@@ -56,12 +56,14 @@ NPM-ko treba aby vedelo stahovat dependencky. Treba min. tie verzie, kvôli prí
 
 ## Changelog
 
+* _**v0.1.0a**_ - added routing
 * _**v0.0.1a**_ - initial project setup
 
 ## Authors
 
 * __Lukáš Odler__ - _development and design_ - [ZukyDesigns](https://github.com/zukydesigns)
 * __Ondrej Straka__ - _javascript_
+* __Jakub Lazúr__ - _something_
 
 ## Licence
 
