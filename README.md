@@ -1,7 +1,7 @@
 # Projekt19 WEBTECH1 FEI STU API
 
 ![CSS Framework](https://img.shields.io/badge/type-Vue_Website-blue.svg)
-![version](https://img.shields.io/badge/version-0.1.0a-lightgray.svg)
+![version](https://img.shields.io/badge/version-0.1.3a-lightgray.svg)
 ![status](https://img.shields.io/badge/status-development-red.svg)
 ![licence](https://img.shields.io/badge/licence-MIIT-blue.svg)
 
@@ -13,13 +13,13 @@ Sometext
 
     V root Adresári príkaz:
 
-    ```npm
+    ```bash
     npm install
     ```
 
 * ### Spustenie servera
 
-    ```npm
+    ```bash
     npm start
     ```
 
@@ -27,7 +27,7 @@ Sometext
 
     [Comming soon]
 
-    ```npm
+    ```bash
     npm build
     ```
 
@@ -46,7 +46,7 @@ NPM-ko treba aby vedelo stahovat dependencky. Treba min. tie verzie, kvôli prí
     * **js**    : js files
         * _main.js_ : overall js funkcionalita stránky
         * _vendor.js_   : jeden js file pre všetky js knižnice, lepší page loading
-    ** **scss**  : scss štýlovanie
+    * **scss**  : scss štýlovanie
 * _.babelrc_    : konverter ES6, lebo nie všetky browsre ju podporujú
 * _.gitignore_  : súbory ktoré bude git ignorovať pri commitoch
 * _index.html_  : file na ktorý bude Vue nalinkovaný
@@ -54,8 +54,79 @@ NPM-ko treba aby vedelo stahovat dependencky. Treba min. tie verzie, kvôli prí
 * _package.json_    : správca nastavení a dependenciek
 * _README.md_
 
+## Vue Workflow
+
+### Vue component structure
+
+.vue subory má easy štruktúru:
+
+```html
+<template>
+    <!--Tu je html-->
+</template>
+
+<script>
+    //JS, samozrejme dá sa využívať ES6 import
+</script>
+
+<style lang="scss">
+    /*CSS/SCSS/LESS ktoré chcete tiež funguje @import*/
+</style>
+```
+
+### Adding vue components to router
+
+* Otvoriť **src/js/vue.js**
+* Pod komentom _//routes_ sú odkazy na cesty, čiže tam pridám aj svoju novú
+    ```javascript
+    import MyComponent from '../components/MyComponent.vue';
+    ```
+* Pridám ju do const routes, **! pred NotFound !** inak to nepôjde, dal som default resolve na 404-ku
+    ```javascript
+    { path: '/mypath', component: MyComponent },
+    ```
+
+### Nesting vue components
+
+Ak chcem modularizovať svoj komponent je to možné, všetky moduly dávam do _src/components/partials_, aby v tom nebol bordel
+
+Samotný nesting vyzerá takto:
+
+```html
+
+<template>
+    <nestedelement></nestedelement>
+</template>
+
+<script>
+import NestedElement from './partials/NestedElement.vue'
+
+export default {
+  components: {
+    'nestedelement': NestedElement,
+  },
+  data () {
+  }
+}
+</script>
+
+<style>
+</style>
+```
+
+### Vue, vue, v- ...
+
+* aka v-if v-for, class binding, data passing,..
+
+Toto dúfam, že zvládnete z dokumentácie, týka sa to vykreslovania elementov napr v-if je v podstate if statement ak je true tak sa tag v ktorom je vykreslí
+
+Ak nie, tak vysvetlím.
+
+[Dokumentácia](https://vuejs.org/v2/guide/conditional.html)
+
 ## Changelog
 
+* _**v0.1.3a**_ - better routing and nested components
 * _**v0.1.0a**_ - added routing
 * _**v0.0.1a**_ - initial project setup
 

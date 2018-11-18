@@ -1,8 +1,13 @@
 <template>
-  <div id="app">
-    <heading v-if="$route.path != '/' && $route.path != '/404'"></heading> <!-- TODO: maybe rework if statement-->
+  <div id="app" v-if="$route.path != '/' && $route.path != '/404'"> <!-- TODO: maybe rework if statement-->
+    <heading></heading>
+    <div id="container">
+      <router-view></router-view>
+    </div>
+    <footing></footing>
+  </div>
+  <div id="app" v-else>
     <router-view></router-view>
-    <footing v-if="$route.path != '/' && $route.path != '/404'"></footing>
   </div>
 </template>
 
