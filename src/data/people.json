@@ -1,0 +1,17 @@
+[
+    {
+        "name": "Lukáš Odler",
+        "tldr": "Lorem ipsum",
+        "done": ["thing a", "b"]
+    },
+    {
+        "name": "Ondrej Straka",
+        "tldr": "Lorem ipsum",
+        "done": ["thing a","b"]
+    },
+    {
+        "name": "Jakub Lazúr",
+        "tldr": "Lorem ipsum",
+        "done": ["thing a","b"]
+    }
+]
