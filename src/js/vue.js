@@ -4,11 +4,15 @@ import App from '../components/App.vue';
 
 //routes
 import Home from '../components/Home.vue';
+import NotFound from '../components/404.vue';
 
 Vue.use(VueRouter);
 
 const routes = [
-  { path: '/', component: Home }
+  { path: '/', component: Home },
+  //add paths here before 404
+  { path: '/404', component: NotFound },
+  { path: '*', redirect: '/404' },
 ];
 
 const router = new VueRouter({

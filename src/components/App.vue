@@ -1,14 +1,20 @@
 <template>
   <div id="app">
-    <h1>Let's go somewhere!</h1>
-    <hr>
+    <heading v-if="$route.path != '/' && $route.path != '/404'"></heading> <!-- TODO: maybe rework if statement-->
     <router-view></router-view>
+    <footing v-if="$route.path != '/' && $route.path != '/404'"></footing>
   </div>
 </template>
 
 <script>
+import Header from './partials/Header.vue'
+import Footer from './partials/Footer.vue';
+
 export default {
-  name: 'app',
+  components: {
+    'heading': Header,
+    'footing': Footer
+  },
   data () {
     return {
       msg: 'Welcome from Your Vue App!',
