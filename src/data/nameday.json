@@ -1,0 +1,1858 @@
+[
+    {
+        "month": 1,
+        "day": 1,
+        "natHoliday": "Deň vzniku Slovenskej republiky"
+    },
+    {
+        "month": 1,
+        "day": 2,
+        "nameday": ["Alexandra","Karina","Ábel","Makar","Karin","Kara","Sandra","Saša"]
+    },
+    {
+        "month": 1,
+        "day": 3,
+        "nameday": ["Daniela","Danila","Danuta","Genovéva","Radmila"]
+    },
+    {
+        "month": 1,
+        "day": 4,
+        "nameday": ["Drahoslav","Drahoľub","Drahomil","Drahoň","Drahoš","Duchoslav","León","Títus","Drahoľuba","Drahomila","Duchoslava","Leóna","Leónia"]
+    },
+    {
+        "month": 1,
+        "day": 5,
+        "nameday": ["Andrea","Artúr"]
+    },
+    {
+        "month": 1,
+        "day": 6,
+        "nameday": ["Antónia","Melchior","Melichar","Menhard"],
+        "natHoliday": "Zjavenie Pána (Traja králi a vianočný sviatok pravoslávnych kresťanov)"
+    },
+    {
+        "month": 1,
+        "day": 7,
+        "nameday": ["Bohuslava","Attila","Lucián","Bohuna","Boleslava","Božislava","Luciána"]
+    },
+    {
+        "month": 1,
+        "day": 8,
+        "nameday": ["Severín","Čestmír","Pravomil","Čestmíra","Pravomila","Severína"]
+    },
+    {
+        "month": 1,
+        "day": 9,
+        "nameday": ["Alexej","Alex","Domoľub","Julián","Pravoľub","Vladan","Vladay","Alexia","Pravoľuba","Vladana","Vladaya"]
+    },
+    {
+        "month": 1,
+        "day": 10,
+        "nameday": ["Dáša","Agatón","Dalimil","Dalimír","Dalimila","Dalimíra"]
+    },
+    {
+        "month": 1,
+        "day": 11,
+        "nameday": ["Malvína","Honorát","Tasilo","Honoráta"]
+    },
+    {
+        "month": 1,
+        "day": 12,
+        "nameday": ["Ernest","Arkád","Arnošt","Arkádia","Arnoštka","Erna","Ernestína"]
+    },
+    {
+        "month": 1,
+        "day": 13,
+        "nameday": ["Rastislav","Čistomil","Čistoslav","Rastic","Rastimír","Ratislav","Vidor","Čistomila","Čistoslava","Rastislava","Ratislava"]
+    },
+    {
+        "month": 1,
+        "day": 14,
+        "nameday": ["Radovan","Hilár","Uriáš","Uriel","Hilária","Radovana"]
+    },
+    {
+        "month": 1,
+        "day": 15,
+        "nameday": ["Dobroslav","Dobrotín","Domoslav","Loránt","Múdroslav","Domoslava"]
+    },
+    {
+        "month": 1,
+        "day": 16,
+        "nameday": ["Kristína"]
+    },
+    {
+        "month": 1,
+        "day": 17,
+        "nameday": ["Nataša","Aneta","Sofia","Marta","Anna"]
+    },
+    {
+        "month": 1,
+        "day": 18,
+        "nameday": ["Bohdana","Priskus","Piroška","Priska"]
+    },
+    {
+        "month": 1,
+        "day": 19,
+        "nameday": ["Drahomíra","Mário","Sára","Márius","Dúbravka"]
+    },
+    {
+        "month": 1,
+        "day": 20,
+        "nameday": ["Dalibor","Fabián","Fábius","Sebastián","Šebastián","Fábia","Fabiána","Fabiola","Sebastiána"]
+    },
+    {
+        "month": 1,
+        "day": 21,
+        "nameday": ["Vincent","Vincencia"]
+    },
+    {
+        "month": 1,
+        "day": 22,
+        "nameday": ["Zora","Dorián","Sírius","Slavoľub","Slavomil","Zoran","Auróra","Cyntia","Doriána","Sinda","Slavomila","Zorana","Zara"]
+    },
+    {
+        "month": 1,
+        "day": 23,
+        "nameday": ["Miloš","Miloň","Selma"]
+    },
+    {
+        "month": 1,
+        "day": 24,
+        "nameday": ["Timotej","Ctiboh","Timotea"]
+    },
+    {
+        "month": 1,
+        "day": 25,
+        "nameday": ["Gejza","Saul","Šavol"]
+    },
+    {
+        "month": 1,
+        "day": 26,
+        "nameday": ["Tamara","Tamia","Polykarp","Slavibor","Slavislav","Slaviboj","Slavoboj","Svätoboj","Svätobor","Xenofón","Žarko","Polykarpa"]
+    },
+    {
+        "month": 1,
+        "day": 27,
+        "nameday": ["Bohuš","Pribislav","Pribiš"]
+    },
+    {
+        "month": 1,
+        "day": 28,
+        "nameday": ["Alfonz","Manfréd","Alfonzia"]
+    },
+    {
+        "month": 1,
+        "day": 29,
+        "nameday": ["Gašpar","Pribina"]
+    },
+    {
+        "month": 1,
+        "day": 30,
+        "nameday": ["Ema","Jasna"]
+    },
+    {
+        "month": 1,
+        "day": 31,
+        "nameday": ["Emil","Emilián","Emiliána","Marika"]
+    },
+    {
+        "month": 2,
+        "day": 1,
+        "nameday": ["Tatiana","Hynek","Trifon","Táňa","Girron"]
+    },
+    {
+        "month": 2,
+        "day": 2,
+        "nameday": ["Erik","Erika","Aida"]
+    },
+    {
+        "month": 2,
+        "day": 3,
+        "nameday": ["Blažej","Celerín","Celerína"]
+    },
+    {
+        "month": 2,
+        "day": 4,
+        "nameday": ["Veronika","Nika","Verena","Verona"]
+    },
+    {
+        "month": 2,
+        "day": 5,
+        "nameday": ["Agáta","Moderát","Modest","Leda","Moderáta","Modesta"]
+    },
+    {
+        "month": 2,
+        "day": 6,
+        "nameday": ["Dorota","Dorisa","Titanila"]
+    },
+    {
+        "month": 2,
+        "day": 7,
+        "nameday": ["Vanda","Romuald"]
+    },
+    {
+        "month": 2,
+        "day": 8,
+        "nameday": ["Zoja","Aranka","Zoe"]
+    },
+    {
+        "month": 2,
+        "day": 9,
+        "nameday": ["Zdayko","Rainold","Rinaldo","Zdayo","Apolena","Apoliena","Apolónia"]
+    },
+    {
+        "month": 2,
+        "day": 10,
+        "nameday": ["Gabriela","Scholastika","Školastika"]
+    },
+    {
+        "month": 2,
+        "day": 11,
+        "nameday": ["Dezider","Želislav","Dezidera","Želislava"]
+    },
+    {
+        "month": 2,
+        "day": 12,
+        "nameday": ["Perla","Ron","Ronald","Zoro","Zoroslav","Eulália","Slavena","Solveiga","Zoroslava"]
+    },
+    {
+        "month": 2,
+        "day": 13,
+        "nameday": ["Arpád","Jordán","Jordána"]
+    },
+    {
+        "month": 2,
+        "day": 14,
+        "nameday": ["Valentín","Velimír"]
+    },
+    {
+        "month": 2,
+        "day": 15,
+        "nameday": ["Pravoslav","Faust","Faustína","Georgia","Georgína","Pravoslava"]
+    },
+    {
+        "month": 2,
+        "day": 16,
+        "nameday": ["Ida","Liana","Pamfil","Pamfília"]
+    },
+    {
+        "month": 2,
+        "day": 17,
+        "nameday": ["Miloslava","Flavián","Flávius","Silván","Silvín","Flávia","Milomíra","Miluša","Silvána"]
+    },
+    {
+        "month": 2,
+        "day": 18,
+        "nameday": ["Jaromír","Simeon","Jaromíra","Konkordia","Bernadetta"]
+    },
+    {
+        "month": 2,
+        "day": 19,
+        "nameday": ["Vlasta","Konrád","Kurt"]
+    },
+    {
+        "month": 2,
+        "day": 20,
+        "nameday": ["Lívia","Aladár","Lívio","Lívius","Udo","Ulrich","Alma","Ulrika","Ulriška"]
+    },
+    {
+        "month": 2,
+        "day": 21,
+        "nameday": ["Eleonóra"]
+    },
+    {
+        "month": 2,
+        "day": 22,
+        "nameday": ["Etela"]
+    },
+    {
+        "month": 2,
+        "day": 23,
+        "nameday": ["Roman","Romana","Romina"]
+    },
+    {
+        "month": 2,
+        "day": 24,
+        "nameday": ["Matej","Jazmína","Goran","Mateja","Matias","Mateo","Matiáš"]
+    },
+    {
+        "month": 2,
+        "day": 25,
+        "nameday": ["Frederik","Frederika","Taras","Federika"]
+    },
+    {
+        "month": 2,
+        "day": 26,
+        "nameday": ["Viktor","Porfýr","Edina"]
+    },
+    {
+        "month": 2,
+        "day": 27,
+        "nameday": ["Alexander","Leander","Sandro","Skender","Drahotína","Dražica","Leandra"]
+    },
+    {
+        "month": 2,
+        "day": 28,
+        "nameday": ["Zlatica","Elemír","Elo","Lumír","Zlata"]
+    },
+    {
+        "month": 2,
+        "day": 29,
+        "nameday": ["Radomír","Radomíra"]
+    },
+    {
+        "month": 3,
+        "day": 1,
+        "nameday": ["Albín"]
+    },
+    {
+        "month": 3,
+        "day": 2,
+        "nameday": ["Anežka"]
+    },
+    {
+        "month": 3,
+        "day": 3,
+        "nameday": ["Bohumil","Bohumila","Ticián","Ginda","Kunigunda","Ticiána"]
+    },
+    {
+        "month": 3,
+        "day": 4,
+        "nameday": ["Kazimír","Kevin","Gerazim","Romeo","Jadrana","Kazimíra"]
+    },
+    {
+        "month": 3,
+        "day": 5,
+        "nameday": ["Fridrich","Lucius","Teofil","Friderika","Teofila"]
+    },
+    {
+        "month": 3,
+        "day": 6,
+        "nameday": ["Radoslav","Radoslava","Fridolín","Koriolán","Radislav","Radovan","Felícia","Fridolína","Radislava"]
+    },
+    {
+        "month": 3,
+        "day": 7,
+        "nameday": ["Tomáš","Tomislav","Tomáška","Tomislava"]
+    },
+    {
+        "month": 3,
+        "day": 8,
+        "nameday": ["Alan","Alana"]
+    },
+    {
+        "month": 3,
+        "day": 9,
+        "nameday": ["Františka","Erhard"]
+    },
+    {
+        "month": 3,
+        "day": 10,
+        "nameday": ["Branislav","Bruno","Bratislav","Bronislav","Bratislava","Taras"]
+    },
+    {
+        "month": 3,
+        "day": 11,
+        "nameday": ["Angela","Angelika","Angel","Volfram","Algelína","Jurina"]
+    },
+    {
+        "month": 3,
+        "day": 12,
+        "nameday": ["Gregor","Teofan","Gregora","Gregoria","Gregorína"]
+    },
+    {
+        "month": 3,
+        "day": 13,
+        "nameday": ["Vlastimil","Kira","Rozína"]
+    },
+    {
+        "month": 3,
+        "day": 14,
+        "nameday": ["Matilda","Metaneta"]
+    },
+    {
+        "month": 3,
+        "day": 15,
+        "nameday": ["Svetlana","Agap","Belomír","Rodan","Roderich","Roderik","Torkvát","Agapa","Agapia","Rodana","Roderika"]
+    },
+    {
+        "month": 3,
+        "day": 16,
+        "nameday": ["Boleslav","Amos","Bolemír","Heribert","Bolemíra"]
+    },
+    {
+        "month": 3,
+        "day": 17,
+        "nameday": ["Ľubica","Ľuban","Ľuben","Zbignev","Zbyšek","Ľuba"]
+    },
+    {
+        "month": 3,
+        "day": 18,
+        "nameday": ["Eduard","Ctislav","Salvátor","Ctislava","Eduarda"]
+    },
+    {
+        "month": 3,
+        "day": 19,
+        "nameday": ["Jozef","Sibyla"]
+    },
+    {
+        "month": 3,
+        "day": 20,
+        "nameday": ["Víťazoslav","Klaudián","Klaudín","Klaudio","Klaudius","Víťazoslava"]
+    },
+    {
+        "month": 3,
+        "day": 21,
+        "nameday": ["Blahoslav","Blahoboj","Blahosej","Radek","Radko"]
+    },
+    {
+        "month": 3,
+        "day": 22,
+        "nameday": ["Beňadik","Benedikt","Oktavián","Oktávius","Benedikta","Benilda","Benita","Izolda","Oktávia"]
+    },
+    {
+        "month": 3,
+        "day": 23,
+        "nameday": ["Adrián","Apián","Dárius","Viktorián","Apia"]
+    },
+    {
+        "month": 3,
+        "day": 24,
+        "nameday": ["Gabriel"]
+    },
+    {
+        "month": 3,
+        "day": 25,
+        "nameday": ["Marián","Humbert","Anunciáta","Irida","Irisa"],
+        "natDay": "Deň zápasu za ľudské práva"
+    },
+    {
+        "month": 3,
+        "day": 26,
+        "nameday": ["Emanuel","Eman","Manuel","Emanuela","Manuela"]
+    },
+    {
+        "month": 3,
+        "day": 27,
+        "nameday": ["Alena","Rupert","Ruprecht","Dita"]
+    },
+    {
+        "month": 3,
+        "day": 28,
+        "nameday": ["Soňa","Ilarion"]
+    },
+    {
+        "month": 3,
+        "day": 29,
+        "nameday": ["Miroslav","Mieroslav","Bertold","Bertolda","Mieroslava"]
+    },
+    {
+        "month": 3,
+        "day": 30,
+        "nameday": ["Vieroslava","Vieroľub","Vieromil","Vieroslav"]
+    },
+    {
+        "month": 3,
+        "day": 31,
+        "nameday": ["Benjamín","Kvído","Balbína"]
+    },
+    {
+        "month": 4,
+        "day": 1,
+        "nameday": ["Hugo","Hugolín"]
+    },
+    {
+        "month": 4,
+        "day": 2,
+        "nameday": ["Zita","Áron"]
+    },
+    {
+        "month": 4,
+        "day": 3,
+        "nameday": ["Richard","Richarda"]
+    },
+    {
+        "month": 4,
+        "day": 4,
+        "nameday": ["Izidor","Izidora"]
+    },
+    {
+        "month": 4,
+        "day": 5,
+        "nameday": ["Miroslava","Mira"]
+    },
+    {
+        "month": 4,
+        "day": 6,
+        "nameday": ["Irena","Irína","Celestín","Ruben","Sixtus","Celestína","Venuša"]
+    },
+    {
+        "month": 4,
+        "day": 7,
+        "nameday": ["Zoltán","Armand","Herman","Rufínus","Rúfus","Armanda","Rufína","Rumjana"]
+    },
+    {
+        "month": 4,
+        "day": 8,
+        "nameday": ["Albert","Albertín","Albrecht","Valter","Alberta","Albertína","Albrechta"]
+    },
+    {
+        "month": 4,
+        "day": 9,
+        "nameday": ["Milena","Erhard","Mileva"]
+    },
+    {
+        "month": 4,
+        "day": 10,
+        "nameday": ["Igor","Ezechiel","Ivar","Ivor","Radomil","Igora","Radomila"]
+    },
+    {
+        "month": 4,
+        "day": 11,
+        "nameday": ["Július","Antip","Ariel","Ariela","Arleta","Leo","Lev"]
+    },
+    {
+        "month": 4,
+        "day": 12,
+        "nameday": ["Estera","Aster","Davorín","Zenon","Astéria"]
+    },
+    {
+        "month": 4,
+        "day": 13,
+        "nameday": ["Aleš","Artem","Artemon","Artemia","Artemida","Norma"],
+        "natDay": "Deň nespravodlivo stíhaných"
+    },
+    {
+        "month": 4,
+        "day": 14,
+        "nameday": ["Justína","Hrdoslav","Hrdoš","Justín","Davorína","Hrdoslava","Justa"]
+    },
+    {
+        "month": 4,
+        "day": 15,
+        "nameday": ["Fedor","Fedora"]
+    },
+    {
+        "month": 4,
+        "day": 16,
+        "nameday": ["Dana","Danica"]
+    },
+    {
+        "month": 4,
+        "day": 17,
+        "nameday": ["Rudolf","Ralf","Rolf","Rudolfa","Rudolfína","Rudko"]
+    },
+    {
+        "month": 4,
+        "day": 18,
+        "nameday": ["Valér","Apolón","Erich","Verner","Ilma"]
+    },
+    {
+        "month": 4,
+        "day": 19,
+        "nameday": ["Jela","Krescenc","Krescencia"]
+    },
+    {
+        "month": 4,
+        "day": 20,
+        "nameday": ["Marcel","Hvezdoň"]
+    },
+    {
+        "month": 4,
+        "day": 21,
+        "nameday": ["Ervín","Abelard","Adelard","Anzelm","Žitoslav","Anzelma","Ervína","Saskia","Žitoslava","Elissa"]
+    },
+    {
+        "month": 4,
+        "day": 22,
+        "nameday": ["Slavomír","Slávo","Tvrdomír","Jelena","Noema"]
+    },
+    {
+        "month": 4,
+        "day": 23,
+        "nameday": ["Vojtech","Adalbert","Roger","Adalberta","Vojtecha","Vojteška"]
+    },
+    {
+        "month": 4,
+        "day": 24,
+        "nameday": ["Juraj","Fidél","Gaston","Georg","Helmut","Jorik","Jürgen","Deora","Fidélia","Jorga","Jorika","Juraja"]
+    },
+    {
+        "month": 4,
+        "day": 25,
+        "nameday": ["Marek","Izmael","Marko","Markus","Marco"]
+    },
+    {
+        "month": 4,
+        "day": 26,
+        "nameday": ["Jaroslava"]
+    },
+    {
+        "month": 4,
+        "day": 27,
+        "nameday": ["Jaroslav","Aristid","Tulius","Aristída","Tulia"]
+    },
+    {
+        "month": 4,
+        "day": 28,
+        "nameday": ["Jarmila","Prudaycius","Prudaycia"]
+    },
+    {
+        "month": 4,
+        "day": 29,
+        "nameday": ["Lea","Timon"]
+    },
+    {
+        "month": 4,
+        "day": 30,
+        "nameday": ["Anastázia","Anastáz","Blahomil","Asia","Blahomila","Nasťa","Nastasia"]
+    },
+    {
+        "month": 5,
+        "day": 1,
+        "nameday": ["Amarila","Pamela"],
+        "natHoliday": "Sviatok práce"
+    },
+    {
+        "month": 5,
+        "day": 2,
+        "nameday": ["Žigmund","Atanáz","Atanázia","Aténa"]
+    },
+    {
+        "month": 5,
+        "day": 3,
+        "nameday": ["Galina","Timea","Horác","Desana","Halina"]
+    },
+    {
+        "month": 5,
+        "day": 4,
+        "nameday": ["Florián","Flór","Aglája","Floriána","Florína","Pelagia"],
+        "natDay": "Výročie úmrtia M.R. Štefánika"
+    },
+    {
+        "month": 5,
+        "day": 5,
+        "nameday": ["Lesana","Gothard","Pius","Lesia","Pia","Toska"]
+    },
+    {
+        "month": 5,
+        "day": 6,
+        "nameday": ["Hermína","Ovídius","Radivoj","Tankréd","Elfrída","Frída","Herina","Mineta"]
+    },
+    {
+        "month": 5,
+        "day": 7,
+        "nameday": ["Monika","Napoleon","Stanimír","Mona"]
+    },
+    {
+        "month": 5,
+        "day": 8,
+        "nameday": ["Ingrida","Ina","Inga"],
+        "natHoliday": "Deň víťazstva nad fašizmom"
+    },
+    {
+        "month": 5,
+        "day": 9,
+        "nameday": ["Roland","Rolanda","Christopher"]
+    },
+    {
+        "month": 5,
+        "day": 10,
+        "nameday": ["Viktória","Armín","Armína","Beatrica"]
+    },
+    {
+        "month": 5,
+        "day": 11,
+        "nameday": ["Blažena","Miranda","Svatava"]
+    },
+    {
+        "month": 5,
+        "day": 12,
+        "nameday": ["Pankrác","Achiles"]
+    },
+    {
+        "month": 5,
+        "day": 13,
+        "nameday": ["Servác","Chraniboj","Chranibor","Chranislav","Servián","Chranislava","Imelda","Konzuela"]
+    },
+    {
+        "month": 5,
+        "day": 14,
+        "nameday": ["Bonifác"]
+    },
+    {
+        "month": 5,
+        "day": 15,
+        "nameday": ["Žofia","Brenda","Raisa","Sofia","Zosia","Sophia","Sophie"]
+    },
+    {
+        "month": 5,
+        "day": 16,
+        "nameday": ["Svetozár","Peregrín","Peregrína"]
+    },
+    {
+        "month": 5,
+        "day": 17,
+        "nameday": ["Gizela","Andronik","Ditmar","Paskal","Andronika","Paskália","Aneta"]
+    },
+    {
+        "month": 5,
+        "day": 18,
+        "nameday": ["Viola"]
+    },
+    {
+        "month": 5,
+        "day": 19,
+        "nameday": ["Gertrúda","Gerda"]
+    },
+    {
+        "month": 5,
+        "day": 20,
+        "nameday": ["Bernard","Bernardín","Hviezdoslav","Bernadeta","Bernarda","Bernardína","Hviezdoslava"]
+    },
+    {
+        "month": 5,
+        "day": 21,
+        "nameday": ["Zina","Dobromír","Hostimil","Hostirad","Hostislav","Hostisvit","Teobald","Dobromíra","Hostimila","Hostislava"]
+    },
+    {
+        "month": 5,
+        "day": 22,
+        "nameday": ["Júlia","Juliana","Liana","Rita"]
+    },
+    {
+        "month": 5,
+        "day": 23,
+        "nameday": ["Želmíra","Želmír","Želimír"]
+    },
+    {
+        "month": 5,
+        "day": 24,
+        "nameday": ["Ela"]
+    },
+    {
+        "month": 5,
+        "day": 25,
+        "nameday": ["Urban","Vanesa"]
+    },
+    {
+        "month": 5,
+        "day": 26,
+        "nameday": ["Dušan"]
+    },
+    {
+        "month": 5,
+        "day": 27,
+        "nameday": ["Iveta","Vadim","Valdemar","Valdemara"]
+    },
+    {
+        "month": 5,
+        "day": 28,
+        "nameday": ["Viliam","Vilhelm","Elektra","Elma","Vilhelmína","William"]
+    },
+    {
+        "month": 5,
+        "day": 29,
+        "nameday": ["Vilma","Elmar","Maxim","Maxima"]
+    },
+    {
+        "month": 5,
+        "day": 30,
+        "nameday": ["Ferdinand","Neander","Ferdinanda"]
+    },
+    {
+        "month": 5,
+        "day": 31,
+        "nameday": ["Petrana","Petronela","Petrónius","Blahoslav","Nela","Petrónia","Nelly"]
+    },
+    {
+        "month": 6,
+        "day": 1,
+        "nameday": ["Žaneta"]
+    },
+    {
+        "month": 6,
+        "day": 2,
+        "nameday": ["Oxana","Xénia","Karmen","Karmena","Erazim","Erazmus","Jaromil","Vlastimila"]
+    },
+    {
+        "month": 6,
+        "day": 3,
+        "nameday": ["Karolína","Kevin","Lino","Linus","Palmíro","Kaja","Klotilda","Lina","Lineta","Palmíra"]
+    },
+    {
+        "month": 6,
+        "day": 4,
+        "nameday": ["Lenka","Lena"]
+    },
+    {
+        "month": 6,
+        "day": 5,
+        "nameday": ["Laura","Dorotej","Fatima","Laurencia","Loreta","Loriána"]
+    },
+    {
+        "month": 6,
+        "day": 6,
+        "nameday": ["Norbert","Norman","Romulus","Adolfína","Norberta","Perzida"]
+    },
+    {
+        "month": 6,
+        "day": 7,
+        "nameday": ["Róbert","Borislav","Robin","Teodot","Dalma","Oriána","Róberta","Robina","Silver"],
+        "natDay": "Výročie Memoranda národa slovenského"
+    },
+    {
+        "month": 6,
+        "day": 8,
+        "nameday": ["Medard"]
+    },
+    {
+        "month": 6,
+        "day": 9,
+        "nameday": ["Stanislava","Felicián","Prímus","Vojeslav","Berenika","Vojeslava"]
+    },
+    {
+        "month": 6,
+        "day": 10,
+        "nameday": ["Margaréta","Gréta"]
+    },
+    {
+        "month": 6,
+        "day": 11,
+        "nameday": ["Dobroslava","Barnabáš","Dobrava","Dobrota","Dobrotína","Flóra","Pavoslava"]
+    },
+    {
+        "month": 6,
+        "day": 12,
+        "nameday": ["Zlatko","Svätoslav","Svetislav","Svetoslav","Zlatan","Zlatomír","Zlatoň","Zlatoš","Svätoslava","Svetislava","Svetoslava","Zlatana","Zlatomíra"]
+    },
+    {
+        "month": 6,
+        "day": 13,
+        "nameday": ["Anton","Genadij","Tobiáš","Tobias"]
+    },
+    {
+        "month": 6,
+        "day": 14,
+        "nameday": ["Vasil","Bazil","Elizej","Kvintilián","Kvintín","Kvintus","Herta","Kvinta","Kvintiliána"]
+    },
+    {
+        "month": 6,
+        "day": 15,
+        "nameday": ["Vít","Jolana"]
+    },
+    {
+        "month": 6,
+        "day": 16,
+        "nameday": ["Bianka","Blanka","Benon","Božetech","Alina","Božetecha"]
+    },
+    {
+        "month": 6,
+        "day": 17,
+        "nameday": ["Adolf","Adolfína"]
+    },
+    {
+        "month": 6,
+        "day": 18,
+        "nameday": ["Vratislav","Leontín","Milovan","Milovín","Sedrik","Leontína","Milovana"]
+    },
+    {
+        "month": 6,
+        "day": 19,
+        "nameday": ["Alfréd","Leonid","Leonídas","Leoš","Ruslan","Alfréda"]
+    },
+    {
+        "month": 6,
+        "day": 20,
+        "nameday": ["Valéria","Florencián","Florentín","Silver","Florencia","Florentína"]
+    },
+    {
+        "month": 6,
+        "day": 21,
+        "nameday": ["Alojz","Elvis","Lejla"]
+    },
+    {
+        "month": 6,
+        "day": 22,
+        "nameday": ["Paulína","Achác","Eberhard","Paulín","Paula","Rozvita","Zaira"]
+    },
+    {
+        "month": 6,
+        "day": 23,
+        "nameday": ["Sidónia","Sidón"]
+    },
+    {
+        "month": 6,
+        "day": 24,
+        "nameday": ["Ján","Janis","Jaško","Jens","Johan","Jovan","Nino","Sean"]
+    },
+    {
+        "month": 6,
+        "day": 25,
+        "nameday": ["Tadeáš","Olívia","Olívius","Prosper","Febrónia","Oliva"]
+    },
+    {
+        "month": 6,
+        "day": 26,
+        "nameday": ["Adriána","Stojan","Adriena","Ria","Riana","Stojana"]
+    },
+    {
+        "month": 6,
+        "day": 27,
+        "nameday": ["Ladislav","Ladislava","Samson","Sulamita"]
+    },
+    {
+        "month": 6,
+        "day": 28,
+        "nameday": ["Beáta","Beátus","Slavoj","Bea"]
+    },
+    {
+        "month": 6,
+        "day": 29,
+        "nameday": ["Peter","Pavol","Petra","Pavel","Pavla","Petula"]
+    },
+    {
+        "month": 6,
+        "day": 30,
+        "nameday": ["Melánia","Vlastibor","Vlastimír","Šárka","Vlastimíra"]
+    },
+    {
+        "month": 7,
+        "day": 1,
+        "nameday": ["Diana","Dean","Dejan","Dina","Zian","Dajana","Deana","Kalina","Tabita"]
+    },
+    {
+        "month": 7,
+        "day": 2,
+        "nameday": ["Berta","Bertín","Bertína"]
+    },
+    {
+        "month": 7,
+        "day": 3,
+        "nameday": ["Miloslav","Irenej","Miliduch","Milomír","Milorad","Radimír","Rodimír","Radimíra"]
+    },
+    {
+        "month": 7,
+        "day": 4,
+        "nameday": ["Prokop","Procius","Prokopa"]
+    },
+    {
+        "month": 7,
+        "day": 5,
+        "nameday": ["Cyril","Metod","Cyrus","Cyrila"],
+        "natHoliday": "Sviatok svätého Cyrila a Metoda",
+        "natDay": "Deň zahraničných Slovákov"
+    },
+    {
+        "month": 7,
+        "day": 6,
+        "nameday": ["Patrik","Patrícia","Patrokles"]
+    },
+    {
+        "month": 7,
+        "day": 7,
+        "nameday": ["Oliver","Donald","Kastor","Veleslav","Velislav","Valibals","Veleslava","Velislava"]
+    },
+    {
+        "month": 7,
+        "day": 8,
+        "nameday": ["Ivan","Ivo","Kilián","Perikles"]
+    },
+    {
+        "month": 7,
+        "day": 9,
+        "nameday": ["Lujza","Lukrécius","Lizelota","Lukrécia"]
+    },
+    {
+        "month": 7,
+        "day": 10,
+        "nameday": ["Amália","Amína","Lada"]
+    },
+    {
+        "month": 7,
+        "day": 11,
+        "nameday": ["Milota","Milutín"]
+    },
+    {
+        "month": 7,
+        "day": 12,
+        "nameday": ["Nina","Fortunát","Fortunáta"]
+    },
+    {
+        "month": 7,
+        "day": 13,
+        "nameday": ["Margita","Arne","Borivoj","Merkéta"]
+    },
+    {
+        "month": 7,
+        "day": 14,
+        "nameday": ["Kamil"]
+    },
+    {
+        "month": 7,
+        "day": 15,
+        "nameday": ["Henrich","Egon","Enrik","Enriko","Henrik","Henrika","Lota","Šarlota"]
+    },
+    {
+        "month": 7,
+        "day": 16,
+        "nameday": ["Drahomír","Karmela","Rút","Rúta"]
+    },
+    {
+        "month": 7,
+        "day": 17,
+        "nameday": ["Bohuslav","Božislav","Svorad"],
+        "natDay": "Výročie Deklarácie o zvrchovanosti Slovenskej republiky"
+    },
+    {
+        "month": 7,
+        "day": 18,
+        "nameday": ["Kamila","Rowa"]
+    },
+    {
+        "month": 7,
+        "day": 19,
+        "nameday": ["Dušana"]
+    },
+    {
+        "month": 7,
+        "day": 20,
+        "nameday": ["Eliáš","Iľja","Ilia","Eliána","Iliana","Elisa"]
+    },
+    {
+        "month": 7,
+        "day": 21,
+        "nameday": ["Daniel","Dan","Dalina"]
+    },
+    {
+        "month": 7,
+        "day": 22,
+        "nameday": ["Magdaléna","Magda","Mahuliena","Majda"]
+    },
+    {
+        "month": 7,
+        "day": 23,
+        "nameday": ["Oľga","Apolinár","Libérius","Libor","Liborius","Apolinára","Libora","Lilien"]
+    },
+    {
+        "month": 7,
+        "day": 24,
+        "nameday": ["Vladimír","Kinga"]
+    },
+    {
+        "month": 7,
+        "day": 25,
+        "nameday": ["Jakub","Žakelína"]
+    },
+    {
+        "month": 7,
+        "day": 26,
+        "nameday": ["Anna","Hana","Aneta","Anica","Anita","Annamária","Naneta","Joachim"]
+    },
+    {
+        "month": 7,
+        "day": 27,
+        "nameday": ["Božena","Gorazd","Pantaleon"]
+    },
+    {
+        "month": 7,
+        "day": 28,
+        "nameday": ["Krištof","Inocent","Svätomír","Svätoš","Inocencia","Nausika","Svätomíra"]
+    },
+    {
+        "month": 7,
+        "day": 29,
+        "nameday": ["Marta","Olaf","Serafín","Serafa","Serafína"]
+    },
+    {
+        "month": 7,
+        "day": 30,
+        "nameday": ["Libuša","Abdon","Ingemar","Ingeborga","Ľubuša","Rowena"]
+    },
+    {
+        "month": 7,
+        "day": 31,
+        "nameday": ["Ignác","Ignát","Vatroslav","Ignácia"]
+    },
+    {
+        "month": 8,
+        "day": 1,
+        "nameday": ["Božidara","Božidar","Ľudomír","Božica","Kleopatra","Ľudomíra","Penelopa"]
+    },
+    {
+        "month": 8,
+        "day": 2,
+        "nameday": ["Gustáv","Gustáva"]
+    },
+    {
+        "month": 8,
+        "day": 3,
+        "nameday": ["Jerguš","Nikodém","Nikodéma"]
+    },
+    {
+        "month": 8,
+        "day": 4,
+        "nameday": ["Dominik","Dominika","Krasoslav","Rainer","Krasoslava","Donna"],
+        "natDay": "Deň Matice slovenskej"
+    },
+    {
+        "month": 8,
+        "day": 5,
+        "nameday": ["Hortenzia","Hortenz","Milivoj","Osvald","Snežana"]
+    },
+    {
+        "month": 8,
+        "day": 6,
+        "nameday": ["Jozefína","Nehoslav","Jozefa"]
+    },
+    {
+        "month": 8,
+        "day": 7,
+        "nameday": ["Štefánia","Kajetán","Afra","Afrodita","Kajetána","Štefana"]
+    },
+    {
+        "month": 8,
+        "day": 8,
+        "nameday": ["Oskar","Donát","Hartvig","Virgín","Donáta","Virgínia"]
+    },
+    {
+        "month": 8,
+        "day": 9,
+        "nameday": ["Ľubomíra","Rastic"]
+    },
+    {
+        "month": 8,
+        "day": 10,
+        "nameday": ["Vavrinec","Lars","Laurenc","Laurus","Lorenc","Vavro"]
+    },
+    {
+        "month": 8,
+        "day": 11,
+        "nameday": ["Zuzana","Trojan","Dulcia","Dulcinela","Dulcínia"]
+    },
+    {
+        "month": 8,
+        "day": 12,
+        "nameday": ["Darina","Dárius","Dária"]
+    },
+    {
+        "month": 8,
+        "day": 13,
+        "nameday": ["Ľubomír","Hypolit","Kasián","Kasius","Belinda"]
+    },
+    {
+        "month": 8,
+        "day": 14,
+        "nameday": ["Mojmír","Eusébius","Mojtech","Eusébia"]
+    },
+    {
+        "month": 8,
+        "day": 15,
+        "nameday": ["Marcela"]
+    },
+    {
+        "month": 8,
+        "day": 16,
+        "nameday": ["Leonard","Jáchim","Joachim","Linhart","Rochus","Leonarda"]
+    },
+    {
+        "month": 8,
+        "day": 17,
+        "nameday": ["Milica","Bertram","Bertrand","Hyacint","Libert","Miron","Hyacinta"]
+    },
+    {
+        "month": 8,
+        "day": 18,
+        "nameday": ["Elena","Helena","Ilona"]
+    },
+    {
+        "month": 8,
+        "day": 19,
+        "nameday": ["Lýdia","Vratislava","Lilien"]
+    },
+    {
+        "month": 8,
+        "day": 20,
+        "nameday": ["Anabela","Arabela","Liliana"]
+    },
+    {
+        "month": 8,
+        "day": 21,
+        "nameday": ["Jana","Johana","Jovana"]
+    },
+    {
+        "month": 8,
+        "day": 22,
+        "nameday": ["Tichomír","Sigfríd","Tichomil","Tichomíra"]
+    },
+    {
+        "month": 8,
+        "day": 23,
+        "nameday": ["Filip","Vlastislav","Filipa","Filipína","Vlastislava"]
+    },
+    {
+        "month": 8,
+        "day": 24,
+        "nameday": ["Bartolomej","Bartolomea"]
+    },
+    {
+        "month": 8,
+        "day": 25,
+        "nameday": ["Ľudovít","Ludvig","Radim","Ľudovíta"]
+    },
+    {
+        "month": 8,
+        "day": 26,
+        "nameday": ["Samuel","Samo","Zemfír","Samuela","Tália","Zemfíra"]
+    },
+    {
+        "month": 8,
+        "day": 27,
+        "nameday": ["Silvia","Silvio","Silvius"]
+    },
+    {
+        "month": 8,
+        "day": 28,
+        "nameday": ["Augustín","August","Augusta","Augustína","Gustína"]
+    },
+    {
+        "month": 8,
+        "day": 29,
+        "nameday": ["Nikola","Nikolaj","Koleta","Nikoleta"],
+        "natHoliday": "Výročie Slovenského národného povstania"
+    },
+    {
+        "month": 8,
+        "day": 30,
+        "nameday": ["Ružena","Ružica"]
+    },
+    {
+        "month": 8,
+        "day": 31,
+        "nameday": ["Nora","Rajmund","Ramón","Rajmunda","Ramona"]
+    },
+    {
+        "month": 9,
+        "day": 1,
+        "nameday": ["Drahoslava","Egid","Egídius","Deborah"],
+        "natHoliday": "Deň ústavy Slovenskej republiky"
+    },
+    {
+        "month": 9,
+        "day": 2,
+        "nameday": ["Linda","Absolón","Axel","Justus","Ermelinda","Melinda","Rebeka"]
+    },
+    {
+        "month": 9,
+        "day": 3,
+        "nameday": ["Belo","Antim","Klélia"]
+    },
+    {
+        "month": 9,
+        "day": 4,
+        "nameday": ["Rozália","Kandid","Mojžiš","Rozalín","Rozálio","Kandida","Róza","Rozeta","Rozita","Rusalka"]
+    },
+    {
+        "month": 9,
+        "day": 5,
+        "nameday": ["Regína","Bojan","Bojimír","Bojislav","Borimír","Branimír","Chotimír","Justinián","Otakar","Regan","Regulus","Viktorín","Bojana","Bojimíra","Boislava","Branimíra","Budislava","Chotimíra","Larisa"]
+    },
+    {
+        "month": 9,
+        "day": 6,
+        "nameday": ["Alica","Brian","Magnus","Mansvét","Zachariáš","Bria","Larisa"]
+    },
+    {
+        "month": 9,
+        "day": 7,
+        "nameday": ["Marianna","Mariana"]
+    },
+    {
+        "month": 9,
+        "day": 8,
+        "nameday": ["Miriama","Miriana"]
+    },
+    {
+        "month": 9,
+        "day": 9,
+        "nameday": ["Martina","Gordan","Gordián","Gordon","Omar","Gordana","Rea","Tina"]
+    },
+    {
+        "month": 9,
+        "day": 10,
+        "nameday": ["Oleg","Honór","Vitold","Honóra","Krasava","Vitolda"]
+    },
+    {
+        "month": 9,
+        "day": 11,
+        "nameday": ["Bystrík","Prótus","Zdislav","Helga","Zdislava"]
+    },
+    {
+        "month": 9,
+        "day": 12,
+        "nameday": ["Mária","Maja","Manon","Manona","Marica","Mariela","Marieta","Marika","Marila","Mariola","Marlena","Marusia","Jessica","Mia"]
+    },
+    {
+        "month": 9,
+        "day": 13,
+        "nameday": ["Ctibor","Amát","Amátus","Stibor","Sven","Amáta","Tobias"]
+    },
+    {
+        "month": 9,
+        "day": 14,
+        "nameday": ["Ľudomil","Dragan","Dragutín","Drahan","Drahotín","Ľudomila","Radka","Serena"]
+    },
+    {
+        "month": 9,
+        "day": 15,
+        "nameday": ["Jolana","Melissa","Melisa","Melita"],
+        "natHoliday": "Sedembolestná Panna Mária"
+    },
+    {
+        "month": 9,
+        "day": 16,
+        "nameday": ["Ľudmila","Dunja"]
+    },
+    {
+        "month": 9,
+        "day": 17,
+        "nameday": ["Olympia","Lambert","Záviš"]
+    },
+    {
+        "month": 9,
+        "day": 18,
+        "nameday": ["Eugénia","Ariadna"]
+    },
+    {
+        "month": 9,
+        "day": 19,
+        "nameday": ["Konštantín","Trofín","Konstancia","Konštantína"],
+        "natDay": "Deň prvého verejného vystúpenia Slovenskej národnej rady"
+    },
+    {
+        "month": 9,
+        "day": 20,
+        "nameday": ["Ľuboslav","Ľuboslava","Eustach","Filibert","Liboslav","Eustachia","Liboslava"]
+    },
+    {
+        "month": 9,
+        "day": 21,
+        "nameday": ["Matúš","Ifigénia","Mirela"]
+    },
+    {
+        "month": 9,
+        "day": 22,
+        "nameday": ["Móric","Maurícius","Maurus"]
+    },
+    {
+        "month": 9,
+        "day": 23,
+        "nameday": ["Zdayka","Polyxénia","Tekla","Zdaya"]
+    },
+    {
+        "month": 9,
+        "day": 24,
+        "nameday": ["Ľubor","Ľuboš","Terenc"]
+    },
+    {
+        "month": 9,
+        "day": 25,
+        "nameday": ["Vladislav","Vladivoj","Eufrozina","Fruzína","Vladislava","Jesika"]
+    },
+    {
+        "month": 9,
+        "day": 26,
+        "nameday": ["Edita","Damián","Kozmas","Damiána"]
+    },
+    {
+        "month": 9,
+        "day": 27,
+        "nameday": ["Cyprián","Mirabela"]
+    },
+    {
+        "month": 9,
+        "day": 28,
+        "nameday": ["Václav","Chariton","Kariton","Václava"]
+    },
+    {
+        "month": 9,
+        "day": 29,
+        "nameday": ["Michal","Michaela","Michael","Michala"]
+    },
+    {
+        "month": 9,
+        "day": 30,
+        "nameday": ["Jarolím","Hieronym","Jeremiáš","Jarolíma","Ráchel","Ráchela","Una"]
+    },
+    {
+        "month": 10,
+        "day": 1,
+        "nameday": ["Arnold","Remig","Remus","Arnolda","Belina"]
+    },
+    {
+        "month": 10,
+        "day": 2,
+        "nameday": ["Levoslav","Leodegar","Levoslava"]
+    },
+    {
+        "month": 10,
+        "day": 3,
+        "nameday": ["Stela","Amadeus","Evald","Amadea"]
+    },
+    {
+        "month": 10,
+        "day": 4,
+        "nameday": ["František","Edvin","Fraňo"]
+    },
+    {
+        "month": 10,
+        "day": 5,
+        "nameday": ["Viera","Blahomír","Placid","Blahomíra","Karitína","Placida"]
+    },
+    {
+        "month": 10,
+        "day": 6,
+        "nameday": ["Natália"],
+        "natDay": "Deň obetí Dukly"
+    },
+    {
+        "month": 10,
+        "day": 7,
+        "nameday": ["Eliška"]
+    },
+    {
+        "month": 10,
+        "day": 8,
+        "nameday": ["Brigita","Brit","Brita"]
+    },
+    {
+        "month": 10,
+        "day": 9,
+        "nameday": ["Dionýz","Dionýzia"]
+    },
+    {
+        "month": 10,
+        "day": 10,
+        "nameday": ["Slavomíra","Gedeon","Záboj","Krasomila"]
+    },
+    {
+        "month": 10,
+        "day": 11,
+        "nameday": ["Valentína","Belín","Zvonimír","Zvonislav","Bruna","Brunhilda","Luneta","Selena","Zvonimíra","Zvonislava"]
+    },
+    {
+        "month": 10,
+        "day": 12,
+        "nameday": ["Maximilián","Max","Maximiliána"]
+    },
+    {
+        "month": 10,
+        "day": 13,
+        "nameday": ["Koloman","Edgar"]
+    },
+    {
+        "month": 10,
+        "day": 14,
+        "nameday": ["Boris","Borislav","Kalist","Borislava","Kalista"]
+    },
+    {
+        "month": 10,
+        "day": 15,
+        "nameday": ["Terézia","Tereza"]
+    },
+    {
+        "month": 10,
+        "day": 16,
+        "nameday": ["Vladimíra","Gál","Havel","Havla"]
+    },
+    {
+        "month": 10,
+        "day": 17,
+        "nameday": ["Hedviga","Jadviga"]
+    },
+    {
+        "month": 10,
+        "day": 18,
+        "nameday": ["Lukáš"]
+    },
+    {
+        "month": 10,
+        "day": 19,
+        "nameday": ["Kristián","Christián","Izák","Christiána","Kristiána"]
+    },
+    {
+        "month": 10,
+        "day": 20,
+        "nameday": ["Vendelín","Eunika","Vendelína"]
+    },
+    {
+        "month": 10,
+        "day": 21,
+        "nameday": ["Uršuľa","Anatol","Anatólia","Antília"]
+    },
+    {
+        "month": 10,
+        "day": 22,
+        "nameday": ["Sergej","Dobromil","Sergius","Zdravomil","Kordula","Korduľa","Pribislava","Saloma","Saloména","Solomia"]
+    },
+    {
+        "month": 10,
+        "day": 23,
+        "nameday": ["Alojzia","Žitomír"]
+    },
+    {
+        "month": 10,
+        "day": 24,
+        "nameday": ["Kvetoslava","Aretas","Cvetan","Gilbert","Harold","Herald","Krasomil","Kvetoň","Kvetoslav","Rafael","Šalamún","Areta","Cvetana","Gilberta","Kveta","Kvetana","Kvetava","Rafaela"]
+    },
+    {
+        "month": 10,
+        "day": 25,
+        "nameday": ["Aurel","Krišpín","Vojmír","Zosim","Živan","Živko","Dália","Vojmíra","Živa","Živana"]
+    },
+    {
+        "month": 10,
+        "day": 26,
+        "nameday": ["Demeter","Amand","Dimitrij","Evarist","Amanda","Demetria"]
+    },
+    {
+        "month": 10,
+        "day": 27,
+        "nameday": ["Sabína","Horislav","Hromislav","Horislava","Hromislava","Sabrina","Zoa","Zoana"],
+        "natDay": "Deň černovskej tragédie"
+    },
+    {
+        "month": 10,
+        "day": 28,
+        "nameday": ["Dobromila","Kevin"]
+    },
+    {
+        "month": 10,
+        "day": 29,
+        "nameday": ["Klára","Narcis","Zenob","Klarisa","Narcisa","Zenóbia","Chiara"],
+        "natDay": "Deň narodayia Ľudovíta Štúra"
+    },
+    {
+        "month": 10,
+        "day": 30,
+        "nameday": ["Šimon","Simona","Arzen","Asen","Simon","Asena","Simoneta","Šimona"],
+        "natDay": "Výročie Deklarácie slovenského národa"
+    },
+    {
+        "month": 10,
+        "day": 31,
+        "nameday": ["Aurélia","Stacho","Volfgang"],
+        "natDay": "Deň reformácie"
+    },
+    {
+        "month": 11,
+        "day": 1,
+        "nameday": ["Denis","Denisa"],
+        "natHoliday": "Sviatok všetkých svätých"
+    },
+    {
+        "month": 11,
+        "day": 2,
+        "nameday": ["Cézar","Cezária"],
+        "Skdni": "Pamiatka zosnulých"
+    },
+    {
+        "month": 11,
+        "day": 3,
+        "nameday": ["Hubert"]
+    },
+    {
+        "month": 11,
+        "day": 4,
+        "nameday": ["Karol","Džesika","Jesika","Karola","Skarleta","Jessica"]
+    },
+    {
+        "month": 11,
+        "day": 5,
+        "nameday": ["Imrich","Emerich","Imriška"]
+    },
+    {
+        "month": 11,
+        "day": 6,
+        "nameday": ["Renáta","Renát","Renáto","Renátus"]
+    },
+    {
+        "month": 11,
+        "day": 7,
+        "nameday": ["René","Engelbert"]
+    },
+    {
+        "month": 11,
+        "day": 8,
+        "nameday": ["Bohumír","Bohumíra"]
+    },
+    {
+        "month": 11,
+        "day": 9,
+        "nameday": ["Teodor","Orest","Teo","Teodorik","Teodoz","Deodata","Tea","Teodora","Teodózia"]
+    },
+    {
+        "month": 11,
+        "day": 10,
+        "nameday": ["Tibor","Tiber","Meluzína","Tibora"]
+    },
+    {
+        "month": 11,
+        "day": 11,
+        "nameday": ["Maroš","Martin","Martinián"]
+    },
+    {
+        "month": 11,
+        "day": 12,
+        "nameday": ["Svätopluk","Astrid","Jonáš","Astrida"]
+    },
+    {
+        "month": 11,
+        "day": 13,
+        "nameday": ["Stanislav"]
+    },
+    {
+        "month": 11,
+        "day": 14,
+        "nameday": ["Irma","Juventín","Mladay","Mladoň","Mladotín","Ima","Juventína","Mladaya","Mladotína"]
+    },
+    {
+        "month": 11,
+        "day": 15,
+        "nameday": ["Leopold","Leopolda","Leopoldína"]
+    },
+    {
+        "month": 11,
+        "day": 16,
+        "nameday": ["Agnesa","Otmar","Agneša","Inéza"]
+    },
+    {
+        "month": 11,
+        "day": 17,
+        "nameday": ["Klaudia","Klodeta"],
+        "natHoliday": "Deň boja za slobodu a demokraciu"
+    },
+    {
+        "month": 11,
+        "day": 18,
+        "nameday": ["Eugen","Platón"]
+    },
+    {
+        "month": 11,
+        "day": 19,
+        "nameday": ["Alžbeta","Betina","Elizabeta","Lila","Liliana","Líza","Lili","Lilly"]
+    },
+    {
+        "month": 11,
+        "day": 20,
+        "nameday": ["Félix","Filemon","Homér"]
+    },
+    {
+        "month": 11,
+        "day": 21,
+        "nameday": ["Elvíra","Ctirad","Ctirada"]
+    },
+    {
+        "month": 11,
+        "day": 22,
+        "nameday": ["Cecília","Cecilián","Šejla"]
+    },
+    {
+        "month": 11,
+        "day": 23,
+        "nameday": ["Klement","Klementín","Kliment","Kolumbín","Klementína","Kolumbína"]
+    },
+    {
+        "month": 11,
+        "day": 24,
+        "nameday": ["Emília","Milín","Milina"]
+    },
+    {
+        "month": 11,
+        "day": 25,
+        "nameday": ["Katarína","Katrina"]
+    },
+    {
+        "month": 11,
+        "day": 26,
+        "nameday": ["Kornel","Valerián"]
+    },
+    {
+        "month": 11,
+        "day": 27,
+        "nameday": ["Milan","Nestor","Virgil","Milana"]
+    },
+    {
+        "month": 11,
+        "day": 28,
+        "nameday": ["Henrieta","Gerhard","Tristan","Desdemona","Eta"]
+    },
+    {
+        "month": 11,
+        "day": 29,
+        "nameday": ["Vratko","Saturnín","Zaida"]
+    },
+    {
+        "month": 11,
+        "day": 30,
+        "nameday": ["Andrej","Ondrej","Andreas"]
+    },
+    {
+        "month": 12,
+        "day": 1,
+        "nameday": ["Edmund","Edmunda"]
+    },
+    {
+        "month": 12,
+        "day": 2,
+        "nameday": ["Bibiána","Budimír","Budislav","Budimíra","Viviána","Vivien"]
+    },
+    {
+        "month": 12,
+        "day": 3,
+        "nameday": ["Oldrich","Sofron","Xavér","Sofrónia","Xavéria"]
+    },
+    {
+        "month": 12,
+        "day": 4,
+        "nameday": ["Barbora","Babeta","Barbara","Barica"]
+    },
+    {
+        "month": 12,
+        "day": 5,
+        "nameday": ["Oto","Gerald","Otakar","Otokar","Geralda","Geraldína","Jitka","Ota","Sáva"]
+    },
+    {
+        "month": 12,
+        "day": 6,
+        "nameday": ["Mikuláš","Nikita","Niko","Nikolas","Mikuláška","Nikoleta"]
+    },
+    {
+        "month": 12,
+        "day": 7,
+        "nameday": ["Ambróz","Amarant","Amaranta","Ambrózia"]
+    },
+    {
+        "month": 12,
+        "day": 8,
+        "nameday": ["Marína"]
+    },
+    {
+        "month": 12,
+        "day": 9,
+        "nameday": ["Izabela","Dalila","Leokádia"]
+    },
+    {
+        "month": 12,
+        "day": 10,
+        "nameday": ["Radúz","Herbert"]
+    },
+    {
+        "month": 12,
+        "day": 11,
+        "nameday": ["Hilda","Hildegard","Hildegarda"]
+    },
+    {
+        "month": 12,
+        "day": 12,
+        "nameday": ["Otília","Spiridon","Dília","Odeta"]
+    },
+    {
+        "month": 12,
+        "day": 13,
+        "nameday": ["Lucia","Rosan","Rosana","Roxana"]
+    },
+    {
+        "month": 12,
+        "day": 14,
+        "nameday": ["Branislava","Bronislava","Broňa"]
+    },
+    {
+        "month": 12,
+        "day": 15,
+        "nameday": ["Ivica","Detrich","Radan","Radana"]
+    },
+    {
+        "month": 12,
+        "day": 16,
+        "nameday": ["Albína","Bela","Teofánia"]
+    },
+    {
+        "month": 12,
+        "day": 17,
+        "nameday": ["Kornélia","Lazár","Kora","Korina"]
+    },
+    {
+        "month": 12,
+        "day": 18,
+        "nameday": ["Sláva","Slávka","Gracián","Grácia","Graciána","Slavislava"]
+    },
+    {
+        "month": 12,
+        "day": 19,
+        "nameday": ["Judita","Abrahám","Mstislav","Neméz","Ita","Mstislava","Neméza"]
+    },
+    {
+        "month": 12,
+        "day": 20,
+        "nameday": ["Dagmara","Dagmar","Dag","Dagobert","Daga","Damara"]
+    },
+    {
+        "month": 12,
+        "day": 21,
+        "nameday": ["Bohdan"]
+    },
+    {
+        "month": 12,
+        "day": 22,
+        "nameday": ["Adela","Ada","Adelaida","Adelgunda","Adelína","Adina","Alida"]
+    },
+    {
+        "month": 12,
+        "day": 23,
+        "nameday": ["Nadežda","Naďa"]
+    },
+    {
+        "month": 12,
+        "day": 24,
+        "nameday": ["Adam","Eva","Evamária","Evelína","Gaja","Gajana","Geja"],
+        "natHoliday": "Štedrý deň"
+    },
+    {
+        "month": 12,
+        "day": 25,
+        "natHoliday": "Prvý sviatok vianočný"
+    },
+    {
+        "month": 12,
+        "day": 26,
+        "nameday": ["Štefan"],
+        "natHoliday": "Druhý sviatok vianočný"
+    },
+    {
+        "month": 12,
+        "day": 27,
+        "nameday": ["Filoména","Filomén"]
+    },
+    {
+        "month": 12,
+        "day": 28,
+        "nameday": ["Ivana","Ivona","Iva"]
+    },
+    {
+        "month": 12,
+        "day": 29,
+        "nameday": ["Milada","Jonatán","Miladín","Nátan","Natanel"]
+    },
+    {
+        "month": 12,
+        "day": 30,
+        "nameday": ["Dávid","Lotar"],
+        "natDay": "Deň vyhlásenia Slovenska za samostatnú cirkevnú provinciu"
+    },
+    {
+        "month": 12,
+        "day": 31,
+        "nameday": ["Silvester","Horst"]
+    }
+]
