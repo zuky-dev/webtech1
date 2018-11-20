@@ -1,7 +1,7 @@
 # Projekt19 WEBTECH1 FEI STU API
 
 ![CSS Framework](https://img.shields.io/badge/type-Vue_Website-blue.svg)
-![version](https://img.shields.io/badge/version-0.1.3a-lightgray.svg)
+![version](https://img.shields.io/badge/version-0.1.5a-lightgray.svg)
 ![status](https://img.shields.io/badge/status-development-red.svg)
 ![licence](https://img.shields.io/badge/licence-MIIT-blue.svg)
 
@@ -43,6 +43,7 @@ NPM-ko treba aby vedelo stahovat dependencky. Treba min. tie verzie, kvôli prí
 * **src**       : tu je kód
     * **assets**    : folder na obrázky apod.
     * **components**    : Vue komponenty
+        * **partials**  : Moduly, kvazi subkomponenty, napr navbar, header, footer apod, nieje to samostatna stranka
     * **js**    : js files
         * _main.js_ : overall js funkcionalita stránky
         * _vendor.js_   : jeden js file pre všetky js knižnice, lepší page loading
@@ -81,9 +82,32 @@ NPM-ko treba aby vedelo stahovat dependencky. Treba min. tie verzie, kvôli prí
     ```javascript
     import MyComponent from '../components/MyComponent.vue';
     ```
-* Pridám ju do const routes, **! pred NotFound !** inak to nepôjde, dal som default resolve na 404-ku
+* Vpravím nový route ako var (kvôli vkladaniu)
     ```javascript
-    { path: '/mypath', component: MyComponent },
+    var myroute = {
+        path: 'mypath',
+        component: MyComponent,
+        name: 'mynavigationname'
+        meta: {
+            breadcrumb: 'mybreadcrumbname'
+        }
+        },
+    ```
+* Pridám ju do const routes[0].children (možno budem ešte meniť ale to potom budem vedieť editovať)
+    ```javascript
+    const routes = [
+        {   path: '/',
+            component: Home,
+            name: 'Domov',
+            meta: {
+                breadcrumb: 'Domov'
+            },
+            children: [
+                ...,
+                myroute,
+                ...
+            ]
+  },...
     ```
 
 ### Nesting vue components
@@ -126,6 +150,7 @@ Ak nie, tak vysvetlím.
 
 ## Changelog
 
+* _**v0.1.5a**_ - added breadcrumbs and navbar
 * _**v0.1.3a**_ - better routing and nested components
 * _**v0.1.0a**_ - added routing
 * _**v0.0.1a**_ - initial project setup
@@ -133,8 +158,8 @@ Ak nie, tak vysvetlím.
 ## Authors
 
 * __Lukáš Odler__ - _development and design_ - [ZukyDesigns](https://github.com/zukydesigns)
-* __Ondrej Straka__ - _javascript_
-* __Jakub Lazúr__ - _something_
+* __Ondrej Straka__ - _javascript_ - [Ondros22](https://github.com/Ondros22)
+* __Jakub Lazúr__ - _something_ - [Jakub Lazur](https://github.com/lazurj)
 
 ## Licence
 

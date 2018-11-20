@@ -1,9 +1,7 @@
-//import len knoznic ktore potrebujeme
-import {$} from './vendor.js';
-
+alert(route.path);
 
 /*
-THOUGHT: stale viac rozmyslam ze spravit to cez jsony bude asi mensi pain
+THOUGHT: stale viac rozmyslam ze spravit to cez jsony bude asi mensi pain, asi hej ked uz mame json nato :D
 
 const corsEscape = 'https://cors-anywhere.herokuapp.com/';
 const namedaySiteUrl = ''; //site url

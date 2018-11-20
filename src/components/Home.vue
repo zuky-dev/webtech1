@@ -1,3 +1,5 @@
 <template>
-    <h1>habla</h1>
+    <div id="app">
+        <h1>Landing page</h1>
+    </div>
 </template>

@@ -1,6 +1,6 @@
 {
     "name": "project19",
-    "version": "0.0.1a",
+    "version": "0.1.5a",
     "description": "Finálny projekt na predmet WEBTECH1, FEI STU API",
     "main": "index.js",
     "scripts": {
@@ -15,7 +15,8 @@
         "jquery": "^3.3.1",
         "vue": "^2.5.17",
         "vue-hot-reload-api": "^2.3.0",
-        "vue-router": "^3.0.1"
+        "vue-router": "^3.0.1",
+        "vue2-breadcrumbs": "^2.0.0"
     },
     "devDependencies": {
         "@vue/component-compiler-utils": "^2.2.0",
