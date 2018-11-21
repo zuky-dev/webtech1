@@ -1,5 +1,5 @@
 <template>
-  <div id="app" v-if="$route.path != '/' && $route.path != '/404'"> <!-- TODO: maybe rework if statement-->
+  <div id="main" v-if="$route.path != '/' && $route.path != '/404'"> <!-- TODO: maybe rework if statement-->
     <heading></heading>
     <div id="container">
       <!--breadcrumbs-->
@@ -8,15 +8,12 @@
     </div>
     <footing></footing>
   </div>
-  <div id="app" v-else>
+  <div id="main" v-else>
     <router-view></router-view>
   </div>
 </template>
 
 <script>
-//console.log(6);
-//import '../js/app.js';
-
 import Header from './partials/Header.vue'
 import Footer from './partials/Footer.vue';
 
@@ -33,6 +30,10 @@ export default {
 }
 </script>
 
-<style lang="scss" scoped>
-  @import '../scss/app.scss';
+<style lang="scss">
+#main{
+    background: blue;
+    min-width: 100vw;
+    min-height: 100vh;
+}
 </style>

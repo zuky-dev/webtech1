@@ -13,6 +13,7 @@
         "isotope-layout": "^3.0.6",
         "isotope-packery": "^2.0.1",
         "jquery": "^3.3.1",
+        "particles.js": "^2.0.0",
         "vue": "^2.5.17",
         "vue-hot-reload-api": "^2.3.0",
         "vue-router": "^3.0.1",
@@ -24,6 +25,10 @@
         "babel-preset-env": "^1.7.0",
         "node-sass": "^4.9.2",
         "parcel-bundler": "^1.9.7",
+        "parcel-plugin-static-files-copy": "^1.2.4",
         "vue-template-compiler": "^2.5.17"
-    }
+    },
+    "staticPath": [
+        "static"
+    ]
 }
