@@ -5,7 +5,8 @@ import App from '../components/App.vue';
 
 //routes
 import Home from '../components/Home.vue';
-import Test from '../components/Home.vue';
+import Crossroads from '../components/Crossroads.vue'
+import Test from '../components/Test.vue';
 import NotFound from '../components/404.vue';
 
 Vue.use(VueRouter);
@@ -21,14 +22,23 @@ var test = {
 };
 
 const routes = [
-  { path: '/',
+  {
+    path: '/',
     component: Home,
     name: 'Domov',
     meta: {
       breadcrumb: 'Domov'
+    }
+  },
+  { path: '/crossroads',
+    component: Crossroads,
+    name: 'Rázcestie',
+    meta: {
+      breadcrumb: 'Rázcestie'
     },
     children: [
-      test
+      test,
+      test2
     ]
   },
   //add paths here before 404

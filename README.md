@@ -1,7 +1,7 @@
 # Projekt19 WEBTECH1 FEI STU API
 
 ![CSS Framework](https://img.shields.io/badge/type-Vue_Website-blue.svg)
-![version](https://img.shields.io/badge/version-0.1.5a-lightgray.svg)
+![version](https://img.shields.io/badge/version-0.1.6a-lightgray.svg)
 ![status](https://img.shields.io/badge/status-development-red.svg)
 ![licence](https://img.shields.io/badge/licence-MIIT-blue.svg)
 
@@ -82,7 +82,7 @@ NPM-ko treba aby vedelo stahovat dependencky. Treba min. tie verzie, kvôli prí
     ```javascript
     import MyComponent from '../components/MyComponent.vue';
     ```
-* Vpravím nový route ako var (kvôli vkladaniu)
+* Spravím nový route ako var (kvôli vkladaniu)
     ```javascript
     var myroute = {
         path: 'mypath',
@@ -93,14 +93,14 @@ NPM-ko treba aby vedelo stahovat dependencky. Treba min. tie verzie, kvôli prí
         }
         },
     ```
-* Pridám ju do const routes[0].children (možno budem ešte meniť ale to potom budem vedieť editovať)
+* Pridám ju do const routes[1].children (ešte budem editovat, je tam menší bug)
     ```javascript
     const routes = [
         {   path: '/',
-            component: Home,
-            name: 'Domov',
+            component: Crossroads,
+            name: 'Rázcestie',
             meta: {
-                breadcrumb: 'Domov'
+                breadcrumb: 'Rázcestie'
             },
             children: [
                 ...,
@@ -150,6 +150,7 @@ Ak nie, tak vysvetlím.
 
 ## Changelog
 
+* _**v0.1.6a**_ - temporary routing fix
 * _**v0.1.5a**_ - added breadcrumbs and navbar
 * _**v0.1.3a**_ - better routing and nested components
 * _**v0.1.0a**_ - added routing
