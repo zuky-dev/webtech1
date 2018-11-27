@@ -13,7 +13,7 @@ tbody{
   display: table-row-group; }
 
 .grid {
-  display: grid;
+  display: grid !important;
   grid-template-columns: repeat(12, 1fr); }
   .grid .gc-1 {
     grid-column: span 1; }
@@ -434,6 +434,3 @@ tbody{
     background: green; }
   .dropdown:hover .drop-cont {
     display: block; }
-
-.hidden {
-  display: none; }

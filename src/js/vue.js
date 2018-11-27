@@ -5,18 +5,19 @@ import App from '../components/App.vue';
 
 //routes
 import Home from '../components/Home.vue';
-import Test from '../components/Home.vue';
 import NotFound from '../components/404.vue';
+import Trest from '../components/Test.vue';
 
 Vue.use(VueRouter);
 Vue.use(VueBreadcrumbs);
 
 var test = {
   path: 'test',
-  component: Test,
+  component: Trest,
   name: 'Test',
   meta: {
-    breadcrumb: 'Test'
+    breadcrumb: 'Test',
+    icon: 'fa-list'
   }
 };
 
@@ -25,17 +26,27 @@ const routes = [
     component: Home,
     name: 'Domov',
     meta: {
-      breadcrumb: 'Domov'
+      breadcrumb: 'Domov',
+      icon: 'fa-empire'
     },
     children: [
       test
     ]
   },
+  {
+    path: '/test2',
+    component: Trest,
+    name: 'Test2',
+    meta: {
+      breadcrumb: 'Test2',
+      icon: 'fa-empire'
+    }
+  },
   //add paths here before 404
   { path: '/404',
     component: NotFound,
     meta: {
-      breadcrumb: '404'
+      breadcrumb: '404',
     }
   },
   { path: '*', redirect: '/404' },

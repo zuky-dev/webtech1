@@ -2,11 +2,11 @@
   <div id="main" v-if="$route.path != '/' && $route.path != '/404'"> <!-- TODO: maybe rework if statement-->
     <heading></heading>
     <div id="container">
-      <!--breadcrumbs-->
-      <router-link v-for="(crumb,key) in $breadcrumbs" :key="key" :to=" '.' + crumb.path">{{crumb.meta.breadcrumb}}</router-link>
-      <router-view></router-view>
+      <bcrumbs></bcrumbs>
+      {{$refs}}
+      <router-view/>
     </div>
-    <footing></footing>
+    <!--footing></footing-->
   </div>
   <div id="main" v-else>
     <router-view></router-view>
@@ -15,11 +15,13 @@
 
 <script>
 import Header from './partials/Header.vue'
+import Breadcrumbs from './partials/Breadcrumbs';
 import Footer from './partials/Footer.vue';
 
 export default {
   components: {
     'heading': Header,
+    'bcrumbs': Breadcrumbs,
     'footing': Footer
   },
   data () {
@@ -32,8 +34,23 @@ export default {
 
 <style lang="scss">
 #main{
-    background: blue;
-    min-width: 100vw;
+    width: 100%;
     min-height: 100vh;
+}
+
+#container{
+  width: 100%;
+  min-height: 80vh;
+  background: green;
+  position: relative;
+  &::after{
+    content: '';
+    position: absolute;
+    bottom: -20vh;
+    left: 0;
+    width: 50%;
+    height: 20vh;
+    background: blue;
+  }
 }
 </style>
