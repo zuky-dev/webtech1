@@ -1,5 +1,5 @@
-@import "../../node_modules/font-awesome/css/font-awesome.min.css";
-@import "./webcss.css";
+@import url("~node_modules/font-awesome/css/font-awesome.min.css");
+@import url("~src/scss/webcss.css");
 
 body{
     min-width: 100vw;
@@ -8,4 +8,4 @@ body{
     padding: 0;
 }
 
-@import './app.scss';
+@import url('~src/scss/app.scss');
