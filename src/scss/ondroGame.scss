@@ -17,10 +17,61 @@
     display: none;
 }
 
+#game{
+    background-color: lightcoral;
+    max-width: 100%;
+    max-height: 100%;
+}
+
 #gameField{
     border: 1px solid black;
     width: 500px;
     height: 300px;
     //position: absolute;
     margin: auto;
+    z-index: -1;
+}
+
+#gameMenu{
+    opacity: 0;
+    width: 7%;
+    background-color: blue;
+    height: 100%;
+    margin-left:auto;
+    margin-right:0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    text-align: center;
+    z-index: 1000;
+}
+
+#gameMenu:hover{
+    opacity: 1;
+    
+}
+
+#gameNavMenu{
+    position: relative;
+    top: 40%;
+    transform: translateY(-50%);
+    height: 160px;
+}
+
+#close,#magic,#restart{
+    margin: auto;
+    height: 70px;
+    position: relative;
+    font-size: 40px;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    margin: 10px 0;
+}
+#close:hover,#magic:hover,#restart:hover{
+    font-size: 50px;
+}
+p{
+    margin: -5px 0;
+    font-size: 15px;
 }

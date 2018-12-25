@@ -15,7 +15,6 @@ export default {
     'footing': Footer
   }
 }
-
 </script>
 
 <style lang="scss">
