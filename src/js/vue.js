@@ -7,6 +7,7 @@ import App from '../components/App.vue';
 import Home from '../components/Home.vue';
 import Test from '../components/Home.vue';
 import NotFound from '../components/404.vue';
+import GameOndro from '../components/gameOndro.vue'
 
 Vue.use(VueRouter);
 Vue.use(VueBreadcrumbs);
@@ -26,6 +27,13 @@ const routes = [
     name: 'Domov',
     meta: {
       breadcrumb: 'Domov'
+    }
+  },
+  { path: '/gameOndro',
+    component: GameOndro,
+    name: 'PuzzleOndro',
+    meta: {
+      breadcrumb: 'PuzzleOndro'
     },
     children: [
       test

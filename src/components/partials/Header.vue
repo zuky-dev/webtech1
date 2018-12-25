@@ -1,4 +1,4 @@
-<template>
+  <template>
     <header>
         <h1>HEADZ</h1>
         <hr>
