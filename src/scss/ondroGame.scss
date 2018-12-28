@@ -75,3 +75,13 @@ p{
     margin: -5px 0;
     font-size: 15px;
 }
+
+.tile{
+    width: 100px;
+    height: 60px;
+    float: left;
+  }
+  
+  .tileImage{
+    z-index: 1000;
+  }

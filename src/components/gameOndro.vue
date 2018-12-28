@@ -10,7 +10,7 @@ import Footer from './partials/Footer.vue';
 import "../js/gameOndro.js";
 
 export default {
-  components: {
+  components: { 
     'heading': Header,
     'footing': Footer
   }
