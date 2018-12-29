@@ -53,10 +53,8 @@ function findInput () {
 function findNameOrDate(xml){
     var str = $("#nameInput").val();
     str = str.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase();
-    console.log(str);
     var res = str.match("((0?[1-9]|[12][0123456789]|3[01])\\.(0?[1-9]|1[0-2])\\.)");
     var res2 = str.match("[0123456789]|[\t\f\v\r\n ]|[^a-z]");
-    console.log(res);
     $("#tooltip").text("");
      
     if(res != null){
@@ -64,14 +62,23 @@ function findNameOrDate(xml){
         var month = res[3];
         if(day.length == 1)day = "0"+day;
         if(month.length == 1)month = "0"+month;
-        
-        var zaznamy = $(xml).find('zaznam')
-        zaznamy.each(function(){
+        var date = new Date(month+"."+day+".");
+        var controlDay = date.getDate()+"";
+        var controlMonth = (date.getMonth()+1)+"";
+        if(controlDay.length == 1)controlDay = "0"+controlDay;
+        if(controlMonth.length == 1)controlMonth = "0"+controlMonth;
+        if((controlMonth == month)&&(controlDay == day)){
+            var zaznamy = $(xml).find('zaznam')
+            zaznamy.each(function(){
             if($.trim($(this).find("den")[0].textContent) === (month+""+day)){
                 if($(this).find("SK")[0] !== undefined) $("#tooltip").text($(this).find("SK")[0].textContent);
                 else $("#tooltip").text("");
-            }
-        });
+                }
+            });
+        }else{
+            $("#tooltip").text("Zvoleny datum neexistuje");
+        }
+        
     }else if (( res2 == null)&&(str !== "")){
         var zaznamy = $(xml).find('zaznam');
         zaznamy.each(function(){
