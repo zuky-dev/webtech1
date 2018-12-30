@@ -36,7 +36,7 @@ const routes = [
       breadcrumb: 'PuzzleOndro'
     },
     children: [
-      test
+      Home
     ]
   },
   //add paths here before 404
