@@ -78,7 +78,7 @@ function magic(data){
           }
         });
     }
-    shuffleTiles(shuffle(unsort));
+    //shuffleTiles(shuffle(unsort));
   }
   
   function check(placed,unsort){
