@@ -36,11 +36,7 @@ $("document").ready(function () {
         menu.setAttribute("id", "gameMenu");
     var navMenu = document.createElement("div");
         navMenu.setAttribute("id", "gameNavMenu");
-
-    let InsaneDumbFix = document.createElement('script');
-        InsaneDumbFix.setAttribute('src', "https://code.jquery.com/ui/1.12.1/jquery-ui.js");
     
-    $('body').append(InsaneDumbFix);
     $('#pic1').click(function () {
         data = pic1;
         $('body').append(game);

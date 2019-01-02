@@ -9,7 +9,9 @@
 import Header from './partials/Header.vue';
 import Footer from './partials/Footer.vue';
 import "../js/gameOndro.js";
-
+var jquery = require("jquery");
+window.$ = window.jQuery = jquery; // notice the definition of global variables here
+require("jquery-ui-dist/jquery-ui.js");
 export default {
   components: { 
     'heading': Header,
