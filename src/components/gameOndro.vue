@@ -1,6 +1,7 @@
 <template>
-        <div id="play">
-        Play!   
+        <div id="images">   
+        <img id="pic1" class="thumbnail" src="../assets/images/ondro/StarWars-original.jpg">
+        <img id="pic2" class="thumbnail" src="../assets/images/ondro/trooper-original.jpg">
         </div>
 </template>
 
