@@ -166,7 +166,7 @@ export default {
         height: 100vh;
         display: flex;
         align-items: center;
-        background-image: url('../assets/images/deathstarmockup.jpg');
+        background-image: url('../assets/images/deathstarmockup.png');
         background-repeat: no-repeat;
         background-size: contain;
         background-position-x: right;

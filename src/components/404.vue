@@ -15,9 +15,8 @@
 </template>
 <script>
 import particles from 'particles.js';
-particlesJS.load('stars', 'particles.json', null);
-
 export default {
+    mounted: particlesJS.load('stars', 'particles.json', null),
 }
 </script>
 
@@ -25,7 +24,7 @@ export default {
     #cont{
         width: 100vw;
         height: 100vh;
-        background: red;
+        background: black;
         overflow: hidden;
 
         #stars{
@@ -57,7 +56,7 @@ export default {
                 width: 140%;
                 height: 100%;
                 /*background: rgba(0,0,0,0.5);*/
-                background-image: url('../assets/images/deathstarmockup.png');
+                background-image: url('../assets/images/window.png');
                 background-repeat: no-repeat;
                 background-size: cover;
                 box-shadow: 0 10px 10px black;
@@ -79,7 +78,7 @@ export default {
                 transform-origin: top center;
             }
             #vader{
-                width: 20%;
+                width: 40%;
                 height: auto;
                 position: absolute;
                 bottom: 10%;

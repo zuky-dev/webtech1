@@ -11,8 +11,8 @@ import Article from '../components/Article.vue';
 import About from '../components/About.vue';
 
 import OndrejGame from '../components/gameOndro.vue';
-import LukasGame from '../components/OndroGame.vue';
-import JakubGame from '../components/OndroGame.vue';
+import LukasGame from '../components/LukasGame.vue';
+import JakubGame from '../components/JakubGame.vue';
 
 
 Vue.use(VueRouter);
