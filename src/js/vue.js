@@ -10,9 +10,10 @@ import NotFound from '../components/404.vue';
 import Article from '../components/Article.vue';
 import About from '../components/About.vue';
 
-import OndrejGame from '../components/OndroGame.vue';
+import OndrejGame from '../components/gameOndro.vue';
 import LukasGame from '../components/OndroGame.vue';
 import JakubGame from '../components/OndroGame.vue';
+
 
 Vue.use(VueRouter);
 Vue.use(VueBreadcrumbs);

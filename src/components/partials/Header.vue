@@ -1,4 +1,4 @@
-<template>
+  <template>
     <header>
         <!--div id="navBlur"></div-->
         <i @click="burgerToggle" id="burger" class="fa fa-bars" aria-hidden="true" data-action="close"></i>
