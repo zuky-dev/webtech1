@@ -9,26 +9,34 @@
     "author": "Lukáš Odler, Ondrej Straka",
     "license": "MIIT",
     "dependencies": {
+        "draggable": "^4.2.0",
         "font-awesome": "^4.7.0",
+        "glider-js": "^1.6.3",
         "isotope-layout": "^3.0.6",
         "isotope-packery": "^2.0.1",
         "jquery": "^3.3.1",
+        "jquery-ui": "^1.12.1",
+        "jquery-ui-dist": "^1.12.1",
+        "npm": "^6.4.1",
         "particles.js": "^2.0.0",
-        "vue": "^2.5.17",
-        "vue-hot-reload-api": "^2.3.0",
-        "vue-router": "^3.0.1",
+        "vue": "^2.5.21",
+        "vue-hot-reload-api": "^2.3.1",
+        "vue-router": "^3.0.2",
         "vue2-breadcrumbs": "^2.0.0"
     },
     "devDependencies": {
-        "@vue/component-compiler-utils": "^2.2.0",
+        "@vue/component-compiler-utils": "^2.3.1",
         "babel-core": "^6.26.3",
         "babel-preset-env": "^1.7.0",
         "node-sass": "^4.9.2",
         "parcel-bundler": "^1.9.7",
         "parcel-plugin-static-files-copy": "^1.2.4",
-        "vue-template-compiler": "^2.5.17"
+        "sass": "^1.15.2",
+        "vue-template-compiler": "^2.5.18",
+        "parcel-plugin-asset-copier": "^1.0.0"
     },
     "staticPath": [
-        "static"
-    ]
+        "src/static"
+    ],
+    "assetsPath": "src/static/"
 }
