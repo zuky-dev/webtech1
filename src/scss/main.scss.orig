@@ -1,7 +1,12 @@
+<<<<<<< HEAD
 @import url("~node_modules/font-awesome/css/font-awesome.min.css");
-@import url("~node_modules/glider-js/glider.min.css");
 @import url("~src/scss/webcss.css");
-@import url("~src/scss/fonts.css");
+=======
+@import "../../node_modules/font-awesome/css/font-awesome.min.css";
+@import '../../node_modules/glider-js/glider.min.css';
+@import "./webcss.css";
+@import './fonts.scss';
+>>>>>>> origin/sw_style
 
 body{
     width: 100%;
@@ -10,6 +15,9 @@ body{
     padding: 0;
 }
 
+<<<<<<< HEAD
+@import url('~src/scss/app.scss');
+=======
 *{
     font-family: 'Montserrat', sans-serif;
 }
@@ -22,3 +30,4 @@ body{
     background: rgba(0, 0, 0, 0.7);
 }
 ::-webkit-scrollbar{width: 12px;height: 12px;}::-webkit-scrollbar-track,::-webkit-scrollbar-thumb{background: rgba(0, 0, 0, 0.7);}::-moz-scrollbar{width: 12px;height: 12px;}::-moz-scrollbar-track,::-moz-scrollbar-thumb{background: rgba(0, 0, 0, 0.7);}::-o-scrollbar{width: 12px;height: 12px;}::-o-scrollbar-track,::-o-scrollbar-thumb{background: rgba(0, 0, 0, 0.7);}
+>>>>>>> origin/sw_style

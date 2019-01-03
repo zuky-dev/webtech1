@@ -26,14 +26,18 @@
         "babel-preset-env": "^1.7.0",
         "node-sass": "^4.9.2",
         "parcel-bundler": "^1.9.7",
+<<<<<<< HEAD
         "parcel-plugin-static-files-copy": "^1.2.4",
         "sass": "^1.15.2",
         "vue-template-compiler": "^2.5.18"
+    },
+    "staticPath": [
+        "./src/static"
+    ]
+=======
         "parcel-plugin-asset-copier": "^1.0.0",
         "vue-template-compiler": "^2.5.17"
     },
-    "staticPath": [
-        "/src/static"
-    ],
     "assetsPath": "src/static/"
+>>>>>>> origin/sw_style
 }
