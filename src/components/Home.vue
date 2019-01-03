@@ -20,15 +20,15 @@ bal bla bla blaaa
             <h4>Vo vôbec nedávnych časoch,<br>presne tejto učebni....</h4>
         </div>
         <div id="after">
-            <router-link id="link" to="/test">[VsTÚPTE}</router-link>
+            <router-link id="link" to="/trivia">[VsTÚPTE}</router-link>
         </div>
     </div>
 </template>
 <script>
 import particles from 'particles.js';
-$(document).ready(setTimeout(function(){
-    particlesJS.load('stars', 'particles.json', null);
-},1000));
+export default {
+    mounted: particlesJS.load('stars', 'particles.json', null),
+}
 
 </script>
 <style lang="scss" scoped>

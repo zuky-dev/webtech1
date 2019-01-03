@@ -2,13 +2,13 @@
     <ul>
         <li v-for="(link,i1) in node" :key="i1">
             <div v-if="link.name" class="menuItem grid" v-bind:class="{drp:link.children && link.children.length}">
-                <router-link class="link gc-9 grid" :to="link.path">
+                <router-link class="link gc-9 grid" :to="path + link.path">
                     <i class="fa gc-3" v-bind:class="link.meta.icon" aria-hidden="true"></i>
                     <span class="gc-9">{{link.name}}</span>
                 </router-link>
-                <i v-if="link.children && link.children.length" v-on:click="dropdown('icon'+link.name,'drop'+link.name)" v-bind:id="'icon'+link.name" class="fa fa-caret-down gc-3" aria-hidden="true"></i>
+                <i v-if="link.children && link.children.length" v-on:click="dropdown('icon'+removeWhitespace(link.name),'drop'+removeWhitespace(link.name))" v-bind:id="'icon'+link.name" class="fa fa-caret-down gc-3" aria-hidden="true"></i>
             </div>
-            <node v-bind:id="'drop'+link.name" class="children hidden" v-if="link.children && link.children.length" :node="link.children"></node>
+            <node v-bind:id="'drop'+removeWhitespace(link.name)" class="children hidden" v-if="link.children && link.children.length" :path="path + link.path + '/'" :node="link.children"></node>
         </li>
     </ul>
 </template>
@@ -16,27 +16,19 @@
 export default {
     name: "node",
     props: {
-        node: Array
+        node: Array,
+        path: "",
     },
     methods: {
         dropdown(idIcon,idMenu){
             $('#'+idIcon).toggleClass('open').parent().toggleClass('open');
             $('#'+idMenu).toggleClass('hidden');
+        },
+        removeWhitespace(text){
+            return text.replace(/\s/g, '_');
         }
     }
 };
-
-/*function dropdown(obj){
-    console.log(obj);
-}
-/*$(document).ready(function(){
-    $('#drop').click(function(){
-        //alert('tadaa');
-        //$(this).addClass('active');
-
-        $(this).parent().parent().find('.children').removeClass('hidden');//.find('.children')[0].removeClass('hidden');
-    });
-});*/
 
 </script>
 <style lang="scss" scoped>
@@ -44,19 +36,19 @@ export default {
     padding: .5rem;
     width: calc(100% - 1rem);
     display: flex;
-    color: #181818;
+    color: #eaeaea;
     font-size: 1.4rem;
     &.drp{
         border-bottom: 1px solid transparent;
         transition: 500ms all ease-in-out;
         &.open{
-            border-bottom-color: #181818
+            border-bottom-color: #eaeaea
         }
     }
 
     .link{
         text-align: center;
-        color: #181818;
+        color: #eaeaea;
     }
     i{
         transition: 500ms all ease-in-out;
@@ -71,7 +63,7 @@ export default {
     margin-left: 10px;
     overflow: hidden;
     transition: 500ms all ease-in-out;
-    max-height: 15vh;
+    max-height: 25vh;
     transform-origin: top center;
     &.hidden{
         max-height:0;

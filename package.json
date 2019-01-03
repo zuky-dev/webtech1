@@ -10,6 +10,7 @@
     "license": "MIIT",
     "dependencies": {
         "font-awesome": "^4.7.0",
+        "glider-js": "^1.6.3",
         "isotope-layout": "^3.0.6",
         "isotope-packery": "^2.0.1",
         "jquery": "^3.3.1",
@@ -28,5 +29,5 @@
         "parcel-plugin-asset-copier": "^1.0.0",
         "vue-template-compiler": "^2.5.17"
     },
-    "assetsPath": "src/static"
+    "assetsPath": "src/static/"
 }

@@ -1,10 +1,10 @@
 <template>
     <header>
         <!--div id="navBlur"></div-->
-        <i id="burger" class="fa fa-bars" aria-hidden="true" data-action="close"></i>
+        <i @click="burgerToggle" id="burger" class="fa fa-bars" aria-hidden="true" data-action="close"></i>
         <nav id="nav">
           <i id="menuImg" class="fa fa-empire" aria-hidden="true"></i>
-          <navigation id="menu" :node="$router.options.routes"></navigation>
+          <navigation id="menu" :path="''" :node="$router.options.routes"></navigation>
         </nav>
     </header>
 </template>
@@ -15,18 +15,20 @@ export default {
   components: {
     'navigation': Navigation
   },
+  methods:{
+    burgerToggle: burger
+  },
   data () {
     return {
     }
-  }
+  },
 }
 
-$(document).ready(function(){
-  $('#burger').click(function(){
-    $(this).toggleClass('fa-bars').toggleClass('fa-times');
-    $('#nav').toggleClass('active');
-  });
-});
+function burger(){
+  $('#burger').toggleClass('fa-bars').toggleClass('fa-times');
+  $('#nav').toggleClass('active')
+}
+
 </script>
 <style lang="scss" scoped>
 #burger{
@@ -54,13 +56,13 @@ $(document).ready(function(){
 }
 
 #nav{
-  background: white;
+  background: linear-gradient(to bottom left, rgba(13, 13, 13, 1), rgba(13, 13, 13, 0.7));
   width: 30vw;
   height: 100vh;
   position: fixed;
   top: 0;
   right: 0;
-  box-shadow: -15px 0 15px -5px rgba(0,0,0,0.6);
+  box-shadow: -7px 0 15px rgba(0,0,0,0.3);
   z-index: 1100;
   transform: translateX(35vw);
   transition: 300ms all ease-in-out;

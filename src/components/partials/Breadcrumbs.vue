@@ -5,7 +5,7 @@
                 <i class="fa" v-bind:class="crumb.meta.icon" aria-hidden="true"></i>
                 <span>{{crumb.meta.breadcrumb}}</span>
             </div>
-            <router-link v-else class="crumbLink" :to=" '.' + crumb.path">
+            <router-link v-else class="crumbLink" v-bind:to="crumb.path">
                 <i class="fa" v-bind:class="crumb.meta.icon" aria-hidden="true"></i>
                 <span>{{crumb.meta.breadcrumb}}</span>
             </router-link>
