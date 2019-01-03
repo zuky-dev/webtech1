@@ -28,12 +28,12 @@
         "parcel-bundler": "^1.9.7",
         "parcel-plugin-static-files-copy": "^1.2.4",
         "sass": "^1.15.2",
-        "vue-template-compiler": "^2.5.18"
+        "vue-template-compiler": "^2.5.18",
         "parcel-plugin-asset-copier": "^1.0.0",
         "vue-template-compiler": "^2.5.17"
     },
     "staticPath": [
-        "/src/static"
+        "src/static"
     ],
     "assetsPath": "src/static/"
 }
