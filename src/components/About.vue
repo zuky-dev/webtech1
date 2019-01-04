@@ -5,9 +5,11 @@
             <button class="glider-prev"><i class="fa fa-chevron-left"></i></button>
             <div class="glider">
                 <figure v-for='(person, index) in people' class="fig">
+                    <img v-bind:src="person.img" alt="Fotka" class="personImg">
                     <h2>{{person.name}}</h2>
-                    <span>{{person.tldr}}</span>
-                    <ul>
+                    <span class="role">"{{person.tldr}}"</span>
+                    <h3>Zodpovedný za:</h3>
+                    <ul class="stuff">
                         <li v-for="(thing,index) in person.done">
                             {{thing}}
                         </li>
@@ -56,12 +58,47 @@
         padding: 1.5rem;
         transition: 300ms all ease-in-out;
         position: relative;
+        font-family: 'Monsterrat';
+        color: #161616;
         &:hover{
             transform: translateY(-1.5vh);
             $distance: 7px + 5px;
             box-shadow: $distance $distance 16px rgba(0,0,0,0.5);
         }
-        
+        .personImg{
+            width: 70%;
+            margin: 0 auto;
+            border: .3rem solid white;
+            box-shadow: 7px 7px 16px rgba(0,0,0,0.5);
+            border-radius: 100%;
+            margin-bottom: 2vh;
+        }
+        h2{
+            text-align: center;
+            padding: .5rem;
+            font-size: 2rem;
+            font-weight: 100;
+        }
+        .role{
+            text-align: center;
+            font-style: italic;
+            opacity: 0.6;
+            font-weight: 100;
+        }
+        h3{
+            font-weight: 100;
+            padding: .5rem;
+            padding-left: 1.5rem;
+        }
+        .stuff{
+            width: 70%;
+            margin: 0 auto;
+            overflow-y: auto;
+            height: 25%;
+            li{
+                padding: .3rem 0;
+            }
+        }
     }
     .glider-prev,.glider-next{
         top: 50%;

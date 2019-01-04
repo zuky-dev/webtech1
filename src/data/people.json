@@ -1,17 +1,38 @@
 [
     {
         "name": "Lukáš Odler",
-        "tldr": "Lorem ipsum",
-        "done": ["thing a", "b"]
+        "img": "/lukas.png",
+        "tldr": "The designer",
+        "done": [
+            "Design",
+            "Parcel",
+            "Vue",
+            "Breadcrumbs",
+            "Navigácia",
+            "Hra: Luke Skywalker"
+        ]
     },
     {
         "name": "Ondrej Straka",
-        "tldr": "Lorem ipsum",
-        "done": ["thing a","b"]
+        "img": "/ondrej.png",
+        "tldr": "The scripter",
+        "done": [
+            "Git",
+            "Meniny a dátum",
+            "Debugger",
+            "Hra: Millenium Falcon"
+        ]
     },
     {
         "name": "Jakub Lazúr",
-        "tldr": "Lorem ipsum",
-        "done": ["thing a","b"]
+        "img": "/jakub.png",
+        "tldr": "The supporter",
+        "done":[
+            "Texty",
+            "Cookies",
+            "Sitemap",
+            "Malé veci okolo projektu",
+            "Hra: Han Solo"
+        ]
     }
 ]
