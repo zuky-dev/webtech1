@@ -2,6 +2,7 @@
     <div>
         <div class="glider-cont" v-bind:class="$route.path != '/trivia'?'hidden':''">
             <h1>Trivia</h1>
+            <calendar></calendar>
             <button class="glider-prev"><i class="fa fa-chevron-left"></i></button>
 
             <div class="glider">
@@ -26,9 +27,13 @@
 </template>
 <script>
     import Articles from '../data/text.json';
+    import Calendar from './partials/Nameday.vue'
     export default {
         mounted: gldr,
         created: gldr,
+        components: {
+            'calendar': Calendar
+        },
         data(){
             return {
                 articles: Articles
