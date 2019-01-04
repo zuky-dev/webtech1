@@ -104,8 +104,8 @@ function startGame() {
         $('#game').removeClass("invis");
         $('#game').append(time);
         $('#game').append(container);
-        $('#cont').append(field);
-        $('#cont').append(spawn);
+        $('#contImages').append(field);
+        $('#contImages').append(spawn);
         $('#game').append(menu);
         $("#gameMenu").empty();
         $("#gameMenu").append(iconArrow);

@@ -3,7 +3,7 @@ import { log } from "util";
 $("document").ready(function(){
     $.ajax({
         type: "GET",
-        url: "nameday2.xml",
+        url: "/nameday2.xml",
         dataType: "xml",
         success: function(xml) {
             parsexml(xml);
@@ -13,7 +13,6 @@ $("document").ready(function(){
             console.log(xhr);
         }
     });
-      
     $("#submitBtn").click(findInput);
 });
 
@@ -24,6 +23,7 @@ function parsexml(xml) {
     
     var zaznamy = $(xml).find('zaznam')
     zaznamy.each(function(){
+        console.log($.trim($(this).find("den")[0].textContent));
         if($.trim($(this).find("den")[0].textContent) === (d.getMonth()+1)+""+(d.getDate())){
             if($(this).find("SK")[0] !== undefined) $("#name").text($(this).find("SK")[0].textContent);
         }

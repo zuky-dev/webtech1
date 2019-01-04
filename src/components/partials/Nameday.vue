@@ -41,10 +41,13 @@ function parsexml(xml) {
     var d = new Date();
     var strDate = d.getDate() + "/" + (d.getMonth()+1) + "/" + d.getFullYear();
     $("#date").text(strDate);
-    
     var zaznamy = $(xml).find('zaznam')
+    var tmpDay =d.getDate()+"";
+    var tmpMonth = (d.getMonth()+1)+"";
+    if (tmpDay.length===1) tmpDay = "0"+tmpDay;
+    if (tmpMonth.length===1) tmpMonth = "0"+tmpMonth;
     zaznamy.each(function(){
-        if($.trim($(this).find("den")[0].textContent) === (d.getMonth()+1)+""+(d.getDate())){
+        if($.trim($(this).find("den")[0].textContent+"") === tmpMonth+""+(tmpDay)){
             if($(this).find("SK")[0] !== undefined) $("#name").text($(this).find("SK")[0].textContent);
         }
     });
