@@ -11,7 +11,8 @@
                     <h3>Zodpovedný za:</h3>
                     <ul class="stuff">
                         <li v-for="(thing,index) in person.done">
-                            {{thing}}
+                            <i class="fa fa-check-circle" aria-hidden="true"></i>
+                            <span>{{thing}}</span>
                         </li>
                     </ul>
                 </figure>
@@ -53,7 +54,7 @@
     .fig{
         margin: 0 1rem;
         height: 70vh !important;
-        background: #d1d1d1;
+        background: linear-gradient(to bottom right, white,#d1d1d1);
         box-shadow: 7px 7px 16px rgba(0,0,0,0.5);
         padding: 1.5rem;
         transition: 300ms all ease-in-out;
@@ -91,12 +92,16 @@
             padding-left: 1.5rem;
         }
         .stuff{
-            width: 70%;
+            width: 80%;
             margin: 0 auto;
             overflow-y: auto;
             height: 25%;
             li{
                 padding: .3rem 0;
+                display: flex;
+                span{
+                    padding-left: .7rem;
+                }
             }
         }
     }

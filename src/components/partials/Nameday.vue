@@ -1,14 +1,20 @@
 <template>
-    <div>
-        <span id="date"></span>
-        <span id="name"></span>
-        <div>
-            <input type="text" id="nameInput" placeholder="Zadajte meno alebo dátum">
-            <button id="submitBtn">
-                <i class="fa fa-search" aria-hidden="true"></i>
-            </button>
+    <div id="cldr">
+        <div id="actCal">
+            <span id="date" class="space"></span>
+            <span class="space">Meniny má&nbsp;</span>
+            <span id="name"></span>
         </div>
-        <span id="tooltip" ></span>
+
+        <div id="srch">
+            <div class="flex">
+                <input type="text" id="nameInput" placeholder="Meno/dátum">
+                <button id="submitBtn">
+                    <i class="fa fa-search" aria-hidden="true"></i>
+                </button>
+            </div>
+            <span id="tooltip" class="space"></span>
+        </div>
     </div>
 </template>
 
@@ -112,6 +118,7 @@ function findNameOrDate(xml){
                 }
         });
     }else{
+
         $("#tooltip").text("Format vstupu: Datum: DD.MM.(optional YYYY) Meno: len znaky slovenskej abecedy");
         
     }
@@ -121,6 +128,67 @@ function findNameOrDate(xml){
 
 </script>
 
-<style>
+<style lang="scss" scoped>
+    #cldr{
+        position: relative;
+    }
+    .space{
+        padding-left: 1rem;
+    }
+    #actCal{
+        display:flex;
+        justify-content: flex-end;
+        transition: 300ms all ease-in-out;
+        &:hover{
+            color: #eaeaea;
+            ~#srch{
+                width: 80%;
+                padding: 0.5rem;
+            }
+        }
+    }
+    #srch{
+        width: 0;
+        overflow: hidden;
+        background: #eaeaea;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        transition: 300ms all ease-in-out;
+        position: relative;
+        .flex{
+            display: flex;
+            justify-content: flex-start;
+        }
+        input{
+            outline: none!important;
+            border: none;
+            background: transparent;
+            font-family: 'Monsterrat';
+            font-size: 1rem;
+            padding: 0 .3rem;
+            width: 8rem;
+        }
+        button{
+            width: 1.7rem;
+            height: 1.7rem;
+            color: #eaeaea;
+            background: #161616;
+            padding: .2rem;
+            border-radius: 100%;
+            border: none;
+            outline: none;
+        }
+        span{
+            font-weight: 600;
+            height: 1.5rem;
+            overflow-y:auto;
+        }
 
+        &:hover{
+            width: 80%;
+            padding: 0.5rem;
+        }
+    }
 </style>
+
