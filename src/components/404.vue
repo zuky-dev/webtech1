@@ -5,10 +5,10 @@
             <div id="window"> transparent window</div>
             <div id="floor"> flooring</div>
             <img id="vader" src="../assets/images/vader.png">
-            <div id="text">
-                <h1>404</h1>
-                <span>I find your lack of web searching disturbing</span>
-                <router-link :to="'./'">Force repulse</router-link>
+            <div id="text" class="grid">
+                <h1 class="gc-12">404</h1>
+                <span class="gc-12">I find your lack of web searching disturbing</span>
+                <router-link :to="'./'" class="gc-12 link">Force repulse</router-link>
             </div>
         </div>
     </div>
@@ -68,8 +68,8 @@ export default {
             #floor{
                 width: 140%;
                 height: 100%;
-                /*background: blue;*/
-                background-image: url('../assets/images/deathstarfloormockup.jpg');
+                background: #030303;
+                //background-image: url('../assets/images/deathstarfloormockup.jpg');
                 background-repeat: no-repeat;
                 background-size: cover;
                 position: relative;
@@ -87,10 +87,35 @@ export default {
             }
             #text{
                 width: 20%;
-                background: orange;
+                background: rgba(0,0,0,0.5);
+                color: #eaeaea;
                 position: absolute;
                 top: 35%;
                 right: 60%;
+                font-family: 'Monsterrat';
+                h1{
+                    font-size: 3rem;
+                    padding: .5rem;
+                }
+                span{
+                    text-transform: uppercase;
+                    text-align: center;
+                    opacity: 0.8;
+                }
+                .link{
+                    text-transform: uppercase;
+                    text-align: center;
+                    opacity: 0.5;
+                    color:red;
+                    transition: 300ms all ease-in-out;
+
+                    &:hover,&:focus{
+                        font-size: 2rem;
+                        opacity: 1;
+                        padding-top: .5rem;
+                         padding-bottom: .5rem;
+                    }
+                }
             }
         }
     }

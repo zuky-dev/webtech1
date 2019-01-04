@@ -2,15 +2,19 @@
     <div id="landing">
         <div id="text">
             <h3>Episode VIII</h3>
-            <h2>Transcendation</h2>
+            <h2>VUE STRIKES BACK</h2>
             <span>
-taaan tan,
-ta ta ta taaan tan
-ta ta ta taaan
-bla bla blabal blaa
-bla bla bla bla
-blaaa bla
-bal bla bla blaaa
+A long time has passed since the knight of the light, also know as vanilla javascripters were mercilessly exterminated by jQueryism.
+These terrible creatures, consisted mostly of lazy backend devs. Are easily fighting against clean webscripts with the power of queries and PHP.
+<br>
+<br>
+Somewhere in the depths of a small university some of the last protectors of the light are learning new spawns their ways.
+Not did they knew there was a strong influence to the dark side by terrible searching abilities of students and help of Google.
+<br>
+<br>
+Among them, a group of self proclaimed rebels are taking what is worth by each side and making a bigger mess of it.
+<br>
+These are: J3LO with his knowledge off the ancient times, O2S2 with his ability of the void and and Darth Luke with his own twisted might of the dark side...
             </span>
         </div>
         <div id="hider"></div>
@@ -22,16 +26,41 @@ bal bla bla blaaa
         <div id="after">
             <router-link id="link" to="/trivia">[VsTÚPTE}</router-link>
         </div>
+        <audio id="audio" preload="auto" loop>
+                <source src="../assets/sw.mp3" type="audio/mp3">
+        </audio>
+        <i @click.once="audioOn" id="audioB" class="fa fa-volume-up" aria-hidden="true"></i>
     </div>
 </template>
 <script>
 import particles from 'particles.js';
 export default {
     mounted: particlesJS.load('stars', 'particles.json', null),
+    methods:{
+        audioOn
+    }
+}
+
+function audioOn(){
+    $('#audio')[0].play();
 }
 
 </script>
 <style lang="scss" scoped>
+#audioB{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    padding: .4rem;
+    font-size: 2rem;
+    color: #eaeaea;
+    opacity: 0.4;
+    transition: 300ms all ease-in-out;
+    z-index: 1000;
+    &:hover,&:focus{
+        opacity: 1;
+    }
+}
 #landing{
     perspective: 500px;
     transform-origin: center center;
@@ -123,15 +152,15 @@ export default {
         top: 50%;
         left: 50%;
         width: 24vw;
-        transform: $rotation translateY(65vh);
+        transform: $rotation translateY(100vh);
         /*background: red;*/
         color: #ffcd0a;
-        animation: sw 40s linear forwards;
+        animation: sw 60s linear forwards;
         animation-delay: 7s;
 
         @keyframes sw {
             0%{
-                transform: $rotation translateY(65vh);
+                transform: $rotation translateY(100vh);
             }
             100%{
                 transform: $rotation translateY(-100vh);
@@ -173,7 +202,7 @@ export default {
         background-position-y: 200px;
         transform: translateY(500vh);
         animation: lkdwn 5s linear forwards;
-        animation-delay: 20s;
+        animation-delay: 45s;
 
         #link{
             color: #ffcd0a;;

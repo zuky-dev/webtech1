@@ -1,6 +1,6 @@
 <template>
   <div id="main" v-if="$route.path != '/' && $route.path != '/404'"> <!-- TODO: maybe rework if statement-->
-    <heading></heading>
+    <heading class="head"></heading>
     <img v-bind:src="'/'+$route.meta.hero" alt="hero image" id="hero">
     <div id="heroGlass"></div>
     <div id="container">
@@ -31,7 +31,7 @@ export default {
 
 <style lang="scss">
 @import '../scss/responsive.scss';
-
+@media screen{
 #main{
     width: 100%;
     min-height: 100vh;
@@ -98,5 +98,29 @@ export default {
     padding: 1rem;
     padding-left: 5vw;
   }
+}
+}
+
+@media print{
+  #hero{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 30vh;
+  z-index: 1;
+  object-fit: cover;
+  filter: contrast(140%);
+}
+#main{
+  position: fixed;
+  top: 30vh;
+  left: 0;
+}
+.head{
+  display: none;
+}
+
+
 }
 </style>

@@ -1,12 +1,12 @@
 {
     "name": "project19",
-    "version": "0.1.5a",
+    "version": "1.0.0",
     "description": "Finálny projekt na predmet WEBTECH1, FEI STU API",
     "main": "index.js",
     "scripts": {
         "start": "npx parcel ./index.html"
     },
-    "author": "Lukáš Odler, Ondrej Straka",
+    "author": "Lukáš Odler, Ondrej Straka, Jakub Lazúr",
     "license": "MIIT",
     "dependencies": {
         "draggable": "^4.2.0",
