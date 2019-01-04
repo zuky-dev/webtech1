@@ -13,10 +13,15 @@
     </div>
 </template>
 <script>
-    var container = document.querySelector("#puzzleContainer");
-    var resetBT = document.querySelector("#reset");
-    var demoBT = document.querySelector("#demo");
-    var allPuzzlesDiv = document.querySelector("#allPuzzles");
+
+	export default {
+ 		mounted: onLoad
+	}
+
+    var container;
+    var resetBT;
+    var demoBT;
+    var allPuzzlesDiv;
     var dragPuzzle;
     var puzzleDiv;
     var puzzleOffsetX = [];
@@ -46,29 +51,35 @@
     var idSim = 0;
     var simCounter = 0;
 
-    resetBT.addEventListener("mousedown", reset, false);
-    demoBT.addEventListener("mousedown", finishWithSimulation, false);
-    container.addEventListener("mousedown", dragStart, false);
-    container.addEventListener("mouseup", dragEnd, false);
-    container.addEventListener("mousemove", drag, false);
+    function onLoad() {
+    	container = document.querySelector("#puzzleContainer");
+    	resetBT = document.querySelector("#reset");
+    	demoBT = document.querySelector("#demo");
+    	allPuzzlesDiv = document.querySelector("#allPuzzles");
+    	resetBT.addEventListener("mousedown", reset, false);
+    	demoBT.addEventListener("mousedown", finishWithSimulation, false);
+     	container.addEventListener("mousedown", dragStart, false);
+     	container.addEventListener("mouseup", dragEnd, false);
+    	container.addEventListener("mousemove", drag, false);
 
-    for(var i=0; i < 12; i++) {
-      var puzzle = document.createElement("div");
-      var dragablePuzzle = document.createElement("div");
-      puzzleOffsetX[i] = 0;
-      puzzleOffsetY[i] = 0;
-      dragablePuzzle.setAttribute("id", "dragablePuzzle");
-      dragablePuzzle.setAttribute("class", i);
-      puzzle.setAttribute("id", "puzzle");
-      puzzle.setAttribute("class", i);
-      puzzle.style.backgroundImage =  "url(../assets/images/jakub/minipuzzle" +i+".png)";
-      puzzle.appendChild(dragablePuzzle);
-      allPuzzles[i] = puzzle;
-      puzzlesForSimulation[i] = puzzle;
+	    for(var i=0; i < 12; i++) {
+	      var puzzle = document.createElement("div");
+	      var dragablePuzzle = document.createElement("div");
+	      puzzleOffsetX[i] = 0;
+	      puzzleOffsetY[i] = 0;
+	      dragablePuzzle.setAttribute("id", "dragablePuzzle");
+	      dragablePuzzle.setAttribute("class", i);
+	      puzzle.setAttribute("id", "puzzle");
+	      puzzle.setAttribute("class", i);
+	      puzzle.style.backgroundImage =  "url(/images/jakub/minipuzzle" +i+".png)";
+	      puzzle.appendChild(dragablePuzzle);
+	      allPuzzles[i] = puzzle;
+	      puzzlesForSimulation[i] = puzzle;
+	    }
+    	displayPuzzles();
+    	startTimer();
     }
-    displayPuzzles();
-    startTimer();
-
+   
     function dragStart(e) {
       dragPuzzle = e.target;
       var id = dragPuzzle.getAttribute("class");
@@ -199,14 +210,30 @@ function startTimer() {
         sec = 0;
         min++; 
     } 
-    document.getElementById("time").innerHTML = min+":"+sec;
+    displayTime()
     clearTime = setTimeout(startTimer, 1000 );
     sec++; 
 }
 
+function displayTime() {
+	var timeToDisplay = "";
+	if(min < 10) {
+		timeToDisplay += "0" +min;
+	} else {
+		timeToDisplay += min;
+	}
+	timeToDisplay += ":";
+	if(sec < 10 ) {
+		timeToDisplay += "0" +sec;
+	} else {
+		timeToDisplay += sec;
+	}
+	document.getElementById("time").innerHTML = timeToDisplay;
+}
+
 function stopTime() {
     if ( sec !== 0 || min !== 0 ) {   
-        document.getElementById("time").innerHTML = min+":"+sec;
+        displayTime()
         sec = 0; 
         min = 0; 
         clearTimeout(clearTime);
@@ -252,7 +279,9 @@ function stopDemo(){
     simCounter=0;
     idSim = 0;
 }
-<style lang="scss" scoped>
+</script>
+
+<style lang="css">
 #canvas {
 	width: 636px;
 	min-width: 636px;
@@ -260,7 +289,7 @@ function stopDemo(){
 	min-height: 355px;
 	background-color: gray;
 	border-color: white;
-	margin-left: 50px;
+	margin-left: 30px;
 	margin-top: 50px;
 	z-index: 0;
 }
@@ -274,7 +303,7 @@ function stopDemo(){
 
 #puzzleContainer {
   width: 100%;
-  min-width: 800px;
+  min-width: 1270px;
   height: 700px;
   background-color: #333;
   display: flex;
@@ -315,7 +344,7 @@ function stopDemo(){
   font-size: 25px;
   color: white;
   float: top;
-  margin-left: 50px;
+  margin-left: 30px;
   margin-top: 50px;
 }
 #time, #result{
