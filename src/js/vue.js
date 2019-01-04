@@ -28,7 +28,7 @@ var oGame = {
     hero: 'falcon.jpg',
     path: 'millenium_falcon'
   },
-}
+};
 
 var falcon = {
   path: 'millenium_falcon',
