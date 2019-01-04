@@ -5,7 +5,7 @@
             <div v-html="article.text"></div>
             <div class="grid">
                 <a v-bind:href="article.ref" class="butt gc-6">Zdroj</a>
-                <router-link v-bind:to="$route.path + '/game'" class="butt gc-6">Hra</router-link>
+                <router-link v-bind:to="$route.path + '/game'" class="butt gc-6">Hra (Autor: {{article.auth}})</router-link>
             </div>
         </div>
         <router-view></router-view>

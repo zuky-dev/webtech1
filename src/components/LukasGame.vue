@@ -2,11 +2,13 @@
     <div>
         <div class="puzzleCont">
             <img class="bg" src="../assets/images/LPsbg.png" alt="bg">
-            <img v-for="(img, index) in puzzle.imgs" class="draggable puzzle" v-bind:src="puzzle.path + (index + 1) + puzzle.ext" alt="puzzle" v-bind:data-snapx="img.x" v-bind:data-snapy="img.y">
+            <img v-for="(img, index) in puzzle.imgs" class="hider puzzle" v-bind:src="puzzle.path + (index + 1) + puzzle.ext" alt="puzzle" v-bind:data-snapx="img.x" v-bind:data-snapy="img.y">
         </div>
-        <div class="options">
-            <button @click="reset">Reset</button>
-            <button @click="solve">Solve</button>
+        <div class="options grid">
+            <button @click="startSolve" class="gc-3">Start</button>
+            <button @click="reset" class="gc-3">Reset</button>
+            <button @click="solve" class="gc-3">Solve</button>
+            <span id="time" class="gc-3"></span>
         </div>
     </div>
 </template>
@@ -16,7 +18,8 @@ export default {
     mounted: intrct,
     methods: {
         solve,
-        reset
+        reset,
+        startSolve
     },
     data(){
         return{
@@ -24,6 +27,13 @@ export default {
         }
     }
 }
+
+var tag = true;
+var count = 0;
+var clearTime; 
+var seconds = 0, minutes = 0, hours = 0; 
+var clearState; 
+var secs, mins, gethours;
 
 function dragMoveListener(event) {
     var target = event.target,
@@ -49,6 +59,7 @@ function solve(){
         let spx = $(this).attr('data-snapx');
         let spy = $(this).attr('data-snapy');
         $(this).removeClass('draggable').addClass('snapped').css('transform', 'translate(' + spx + 'px, ' + spy + 'px)');
+        resetTime( );
     });
 }
 
@@ -56,6 +67,8 @@ function reset(){
     $('.draggable').addClass('snapped').removeClass('draggable');
     $('.snapped').css('transform', 'translate(' + 0 + 'px, ' + 0 + 'px)');
     setTimeout(function(){$('.snapped').addClass('draggable').removeClass('snapped')},1000);
+    resetTime( );
+
 }
 
 function initPuzzle(){
@@ -110,27 +123,68 @@ function intSet(){
 }
 
 function intrct(){
-let pcont = $('.puzzleCont');
-let parH = pcont.height();
-let parW = pcont.width();
+intSet();
+
+    // this is used later in the resizing and gesture demos
+    window.dragMoveListener = dragMoveListener;
+}
+
+function startSolve(){
+    $('.hider').addClass('draggable').removeClass('hider');
+    let pcont = $('.puzzleCont');
+    let parH = pcont.height();
+    let parW = pcont.width();
 $('.puzzle').each(function(index){
-
-
+    if(tag){
     $(this).height($(this).height() * 0.2);
+    tag != tag;
+    }
+
     let rand = Math.random();
-    let px = 0;
+    let px = 1;
     let py = (parH - $(this).height()) * rand;
     $(this).css("top",py + 'px').css("left", px + 'px');
     let sx = (pcont.width() * ($(this).data('snapx') / 100) ) - px
         ,sy = (pcont.height() * ($(this).data('snapy') / 100) ) - py;
     
     $(this).attr('data-snapx', sx).attr('data-snapy', sy);
+
+    startWatch()
 })
+}
 
-intSet();
 
-    // this is used later in the resizing and gesture demos
-    window.dragMoveListener = dragMoveListener;
+
+function startWatch( ) { 
+    if ( seconds === 60 ) {
+        seconds = 0; 
+        minutes = minutes + 1; 
+    } 
+    mins = ( minutes < 10 ) ? ( '0' + minutes + ': ' ) : ( minutes + ': ' ); 
+    if ( minutes === 60 ) { 
+        minutes = 0; 
+        hours = hours + 1; 
+    } 
+    gethours = ( hours < 10 ) ? ( '0' + hours + ': ' ) : ( hours + ': ' ); 
+    secs = ( seconds < 10 ) ? ( '0' + seconds ) : ( seconds ); 
+    
+    $("#time").text(""+ gethours + mins + secs); 
+    seconds++; 
+    clearTime = setTimeout( startWatch, 1000 ); 
+} 
+
+function resetTime( ) {
+    if ( seconds !== 0 || minutes !== 0 || hours !== 0 ) {   
+        var stopTime = gethours + mins + secs;
+        $("#timer").text(""+ stopTime);
+        seconds = 0; 
+        minutes = 0; 
+        hours = 0; 
+        secs = '0' + seconds;
+        mins = '0' + minutes + ': '; gethours = '0' + hours + ': ';   
+         
+        clearTimeout( clearTime ); 
+    }  
 }
 </script>
 <style lang="scss" scoped>
@@ -151,5 +205,33 @@ intSet();
             &.snapped{transition: 500ms transform ease-in-out;}
         }
 
+    }
+    .hider{
+        display: none;
+    }
+    .options{
+        width: 100%;
+        font-size: 1rem;
+        span{
+            text-align: center;
+            padding: .5rem;
+        margin: .25rem 0;
+        }
+
+        button{
+            font-size: 1rem;
+        background: #eaeaea;
+        color: #161616;
+        text-align: center;
+        padding: .5rem;
+        margin: .25rem 0;
+        transition: 300ms all ease-in-out;
+        border:none;
+        outline:none;
+        &:hover{
+            background: #161616;
+            color: #eaeaea;
+        }
+    }
     }
 </style>
