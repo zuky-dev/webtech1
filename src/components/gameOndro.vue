@@ -310,6 +310,6 @@ function resetTime( ) {
 
 </script>
 
-<style lang="scss">
+<style lang="scss" scoped>
    @import url("~src/scss/ondroGame.scss");
 </style>
