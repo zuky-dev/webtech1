@@ -13,6 +13,8 @@
     </ul>
 </template>
 <style lang="scss" scoped>
+@import '../../scss/responsive.scss';
+
 #breadcrumbs{
     display: flex;
     justify-content: flex-start;
@@ -29,16 +31,22 @@
         color: #181818;
         background: white;
         position: relative;
-        width: 7vw;
+        width: 10vw;
         transform: skewX(-15deg);
         box-shadow: -5px 0px 20px -6px rgba(0,0,0,0.5);
         margin-left: -5vw;
         transition: all 500ms ease-in-out;
+        @media #{$phone}{
+                width: 25vw;
+        }
+        @media #{$tablet}{
+            width: 15vw;
+        }
         &:first-child{
             margin-left: 0;
         }
 
-        &:hover{
+        &:hover,&:focus{
             background: #999;
         }
 
@@ -59,7 +67,7 @@
             color:white;
         }
     }
-    &:hover .crumb{
+    &:hover .crumb,&:focus .crumb{
             margin-left: .5vw;
         }
 }

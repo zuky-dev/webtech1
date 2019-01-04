@@ -25,16 +25,13 @@ export default {
     'heading': Header,
     'bcrumbs': Breadcrumbs,
     'footing': Footer
-  },
-  data () {
-    return {
-      msg: 'Welcome from Your Vue App!'
-    }
   }
 }
 </script>
 
 <style lang="scss">
+@import '../scss/responsive.scss';
+
 #main{
     width: 100%;
     min-height: 100vh;
@@ -71,6 +68,12 @@ export default {
   position: relative;
   z-index: 100;
   margin-top: 30vh;
+  @media #{$phone}{
+      margin-bottom: 30vh;
+    }
+    @media #{$tablet}{
+      margin-bottom: 30vh;
+    }
   box-shadow: 0px -10px 5px rgba(0,0,0,0.5);
   filter: drop-shadow(10px 10px 5px rgba(0,0,0,0.5));
   &::after{
@@ -83,10 +86,17 @@ export default {
     background: #eaeaea;
     clip-path: polygon(0% 0%, 100% 0%, 80% 100%, 0 100%);
     z-index: 101;
+    @media #{$phone}{
+      content: none;
+    }
+    @media #{$tablet}{
+      content: none;
+    }
   }
 
   .bcrumbs{
     padding: 1rem;
+    padding-left: 5vw;
   }
 }
 </style>

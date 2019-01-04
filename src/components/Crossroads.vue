@@ -2,6 +2,7 @@
     <div>
         <div class="glider-cont" v-bind:class="$route.path != '/trivia'?'hidden':''">
             <h1>Trivia</h1>
+
             <button class="glider-prev"><i class="fa fa-chevron-left"></i></button>
 
             <div class="glider">
@@ -27,7 +28,7 @@
 <script>
     import Articles from '../data/text.json';
     export default {
-        created: gldr,
+        mounted: gldr,
         data(){
             return {
                 articles: Articles
@@ -37,17 +38,32 @@
 
     function gldr(){
         new Glider(document.querySelector('.glider'), {
-            slidesToShow: 3,
+            slidesToShow: 1,
             draggable: true,
             arrows: {
                 prev: '.glider-prev',
                 next: '.glider-next'
-            }
+            },
+            responsive:[
+                {
+                    breakpoint: 576,
+                    settings:{
+                        slidesToShow: 2,
+                    }
+                },
+                {
+                    breakpoint: 769,
+                    settings:{
+                        slidesToShow: 3,
+                    }
+                }
+            ]
         });
         $('.glider-track').css('padding-bottom', '20px').css('padding-top', '20px');
     }
 </script>
 <style lang="scss" scoped>
+@import '../scss/responsive.scss';
 .hidden{
     display:none;
 }
@@ -55,6 +71,9 @@
     width: 90%;
     margin: 0 auto;
     padding: 5vh;
+    @media #{$phone}{
+        padding: 0;
+     }
 
     .fig{
         margin: 0 1rem;

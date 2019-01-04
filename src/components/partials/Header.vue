@@ -31,6 +31,8 @@ function burger(){
 
 </script>
 <style lang="scss" scoped>
+@import '../../scss/responsive.scss';
+
 #burger{
     position: fixed;
     top: 0;
@@ -43,18 +45,6 @@ function burger(){
     transition: 300ms all ease-in-out;
   }
 
-
-#navBlur{
-  background: rgba(0,0,0,0.6);
-  width: 100vw;
-  height: 100vh;
-  position: fixed;
-  top: 0;
-  left: 0;
-  z-index: 1000;
-  display:none;
-}
-
 #nav{
   background: linear-gradient(to bottom left, rgba(13, 13, 13, 1), rgba(13, 13, 13, 0.7));
   width: 30vw;
@@ -66,6 +56,16 @@ function burger(){
   z-index: 1100;
   transform: translateX(35vw);
   transition: 300ms all ease-in-out;
+  @media #{$phone}{
+    width: 90vw;
+    transform: translateX(95vw);
+  }
+  @media #{$tablet}{
+    width: 60vw;
+    transform: translateX(65vw);
+  }
+
+
   &.active{
     transform: translateX(0);
   }

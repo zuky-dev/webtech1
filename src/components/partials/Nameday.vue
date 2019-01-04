@@ -129,6 +129,8 @@ function findNameOrDate(xml){
 </script>
 
 <style lang="scss" scoped>
+    @import '../../scss/responsive.scss';
+
     #cldr{
         position: relative;
     }
@@ -139,8 +141,14 @@ function findNameOrDate(xml){
         display:flex;
         justify-content: flex-end;
         transition: 300ms all ease-in-out;
-        &:hover{
+        &:hover,&:focus{
             color: #eaeaea;
+            @media #{$phone}{
+                width: 20%;
+            }
+            @media #{$tablet}{
+                width: 20%;
+            }
             ~#srch{
                 width: 80%;
                 padding: 0.5rem;
@@ -185,7 +193,7 @@ function findNameOrDate(xml){
             overflow-y:auto;
         }
 
-        &:hover{
+        &:hover,&:focus{
             width: 80%;
             padding: 0.5rem;
         }

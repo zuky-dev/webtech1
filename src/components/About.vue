@@ -35,21 +35,40 @@
 
     function gldr(){
         new Glider(document.querySelector('.glider'), {
-            slidesToShow: 3,
+            slidesToShow: 1,
             draggable: true,
             arrows: {
                 prev: '.glider-prev',
                 next: '.glider-next'
-            }
+            },
+            responsive:[
+                {
+                    breakpoint: 576,
+                    settings:{
+                        slidesToShow: 1.5,
+                    }
+                },
+                {
+                    breakpoint: 769,
+                    settings:{
+                        slidesToShow: 3,
+                    }
+                }
+            ]
         });
         $('.glider-track').css('padding-bottom', '20px').css('padding-top', '20px');
     }
 </script>
 <style lang="scss" scoped>
+@import '../scss/responsive.scss';
+
 .glider-cont{
     width: 90%;
     margin: 0 auto;
     padding: 5vh;
+    @media #{$phone}{
+        padding: 0;
+    }
 
     .fig{
         margin: 0 1rem;
@@ -73,6 +92,10 @@
             box-shadow: 7px 7px 16px rgba(0,0,0,0.5);
             border-radius: 100%;
             margin-bottom: 2vh;
+            @media #{$tablet}{
+                width: 50%;
+            }
+            
         }
         h2{
             text-align: center;

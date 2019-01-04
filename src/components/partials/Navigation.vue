@@ -65,6 +65,7 @@ export default {
     transition: 500ms all ease-in-out;
     max-height: 25vh;
     transform-origin: top center;
+    overflow-y: auto;
     &.hidden{
         max-height:0;
     }

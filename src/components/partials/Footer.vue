@@ -1,12 +1,12 @@
 <template>
     <footer class="grid">
-        <div class="gc-5"></div>
+        <div class="gc-5 tbl"></div>
         <div id="content" class="gc-7">
             <calendar class="cont"></calendar>
             <hr>
             <counter class="cont"></counter>
             <hr>
-            <span class="cont" id="cpy">{{copyright}}</span>
+            <span class="cont">{{copyright}}</span>
         </div>
     </footer>
 </template>
@@ -42,6 +42,8 @@
     }
 </script>
 <style lang="scss" scoped>
+    @import '../../scss/responsive.scss';
+
     footer{
         flex-wrap: 1;
         height: 20vh;
@@ -49,8 +51,21 @@
         position: fixed;
         bottom: 0;
         left: 0;
-        /*background: rgba(0,0,0,0.7);
-        z-index: 2000;*/
+        @media #{$phone}{
+            height: 30vh;
+        }
+        @media #{$tablet}{
+          height: 30vh;
+        }
+
+        .tbl{
+            @media #{$phone}{
+                display: none
+            }
+            @media #{$tablet}{
+              display: none;
+            }
+        }
 
 
         #content{
@@ -61,6 +76,12 @@
             color: #404040;
             padding: 1rem 0;
             position: relative;
+            @media #{$phone}{
+                grid-column: span 12;
+            }
+            @media #{$tablet}{
+                grid-column: span 12;
+            }
             *{
                 flex-basis: 100%
             }
@@ -76,6 +97,7 @@
                 align-items: center;
                 padding-right: 2rem;
                 transition: 300ms all ease-in-out;
+                text-align: right;
                 &:hover{
                     color: #eaeaea;
                 }
