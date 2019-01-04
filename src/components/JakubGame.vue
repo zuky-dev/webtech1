@@ -303,7 +303,7 @@ function stopDemo(){
 
 #puzzleContainer {
   width: 100%;
-  min-width: 800px;
+  min-width: 1270px;
   height: 700px;
   background-color: #333;
   display: flex;
